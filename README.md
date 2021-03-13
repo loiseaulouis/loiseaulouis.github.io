@@ -4,7 +4,7 @@
 
 
 ## Semestre 6
-# M61A :
+### M61A :
 
 Dans [ce dépôt](https://gitlab.com/ktzanev/m1opm-tex) vous pouvez trouver les sources LaTeX et les PDFs (compilés avec XeLaTeX ou [tectonic](https://tectonic-typesetting.github.io/en-US/)) des documents suivants :
 
