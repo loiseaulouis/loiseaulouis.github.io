@@ -8,7 +8,7 @@ Les cours appartiennent entièrement aux enseignants respectifs, tout comme les 
 ### M61A :
 Chargée de cours: [[Mylène Maïda](http://math.univ-lille1.fr/~maida/)]   
 Chargé de TD: [[Marc Bourdon](http://math.univ-lille1.fr/~bourdon/)]
-- Cours [[Partie 1] ()]
+- Cours [[Partie 1]()]
 - TD 1 [[Énoncé]()] [[Correction]()]
 - TD 2 [[Énoncé]()] [[Correction]()]
 
