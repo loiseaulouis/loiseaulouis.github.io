@@ -1,7 +1,7 @@
 # Présentation
 
 
-Les documents sont pour l'instant inaccessibles, en l'attente de l'accord des enseignants.
+Les documents sont pour l'instant inaccessibles, en l'attente de l'accord des enseignants.  
 Les cours appartiennent entièrement aux enseignants respectifs, tout comme les TD. Dans ces derniers, ma participation se limite à des commentaires ou des modifications mineures.
 
 ## Semestre 6
