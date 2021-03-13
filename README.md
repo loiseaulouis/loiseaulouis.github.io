@@ -15,7 +15,7 @@ Chargé de TD: [[Marc Bourdon](http://math.univ-lille1.fr/~bourdon/)]
 ### M62:
 
 Chargé de cours: [[Olivier Goubet]()]  
-Chargé de TD: [[Alexis Virezillier]]  
+Chargé de TD: [[Alexis Virezillier]()]  
 - Cours [[Partie 1]()]  
 - Cours [[Partie 2]()]  
 - Cours [[Partie 3]()]  
