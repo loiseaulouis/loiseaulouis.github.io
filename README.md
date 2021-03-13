@@ -1,7 +1,7 @@
 # Présentation
 
 
-Les cours appartiennent entièrement aux enseignants respectifs, tout comme les TD. Dans ces derniers, ma participation se limite à des commentaires ou des modifications mineures.
+Les cours appartiennent entièrement aux enseignants respectifs, tout comme les TD.
 
 ## Semestre 6
 ### M61A :
