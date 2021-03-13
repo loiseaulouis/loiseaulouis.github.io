@@ -10,4 +10,3 @@ Le cours est la propriété de [[Mylène Maïda](http://math.univ-lille1.fr/~mai
 - Cours - Partie  1 [[pdf](M61A\IP-L3.pdf)]
 - TD 1 [[Énoncé]()] [[Correction]()]
 - TD 2 [[Énoncé]()] [[Correction]()]
-- 
