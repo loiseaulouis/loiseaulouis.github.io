@@ -14,7 +14,7 @@ Chargé de TD: [[Marc Bourdon](http://math.univ-lille1.fr/~bourdon/)]
 ### M62:
 
 Chargé de cours: [[Olivier Goubet]()]  
-Chargé de TD: [[Alexis Virezillier]()]  
+Chargé de TD: [[Alexis Virezillier]()]  (pour ces notes)
 - Cours [[Partie 1](M62/CoursEDO_1.pdf)]  
 - Cours [[Partie 2](M62/CoursEDO_2.pdf)]  
 - Cours [[Partie 3](M62/CoursEDO_3.pdf)]  
@@ -23,8 +23,8 @@ Chargé de TD: [[Alexis Virezillier]()]
 - TD 1 [[Énoncé](M62/ExercicesEDO_1.pdf)] [[Correction](M62/TD1.pdf)]
 - TD 2 [[Énoncé](M62/ExercicesEDO_2.pdf)] [[Correction](M62/TD2.pdf)]
 - TD 3 [[Énoncé](M62/ExercicesEDO_3.pdf)] [[Correction](M62/TD3.pdf)]
-- TD 4 [[Énoncé](M62/ExercicesEDO_4.pdf)] [[[Correction](M62/TD4.pdf)]
-- TD 5 [[Énoncé](M62/ExercicesEDO_5.pdf)] [[Correction](M62/TD5.pdf)]  
+- TD 4 [[Énoncé](M62/ExercicesEDO_4.pdf)] [[[Correction](M62/TD4.pdf)]  (en cours)
+- TD 5 [[Énoncé](M62/ExercicesEDO_5.pdf)] [[Correction](M62/TD5.pdf)]  (pas encore commencée)
 
 ### M64:
 Chargé de cours: [[Olivier Serman](http://math.univ-lille1.fr/~serman/)]
