@@ -1,4 +1,4 @@
-# Louis Loiseau - Documents de L3
+# Documents de L3
 
 
 Les documents sont pour l'instant inaccessibles, en l'attente de l'accord des enseignants.
