@@ -6,7 +6,7 @@ Les cours appartiennent entièrement aux enseignants respectifs, tout comme les 
 
 ## Semestre 6
 ### M61A :
-Chargée de cours: [[Mylène Maïda](http://math.univ-lille1.fr/~maida/)] \\
+Chargée de cours: [[Mylène Maïda](http://math.univ-lille1.fr/~maida/)]   
 Chargé de TD: [[Marc Bourdon](http://math.univ-lille1.fr/~bourdon/)]
 - TD 1 [[Énoncé]()] [[Correction]()]
 - TD 2 [[Énoncé]()] [[Correction]()]
