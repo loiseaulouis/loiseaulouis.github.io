@@ -1,5 +1,5 @@
 # Remarque
-Après discussion : les corrections de TD sont des prises de notes tapées durant les séances. Néanmoins, aucun enseignant ne peut être tenu responsable des erreurs s'y trouvant, l'entière responsabilité du document me revenant. Cette page est reservée
+Après discussion : les corrections de TD sont des prises de notes tapées durant les séances. Néanmoins, aucun enseignant ne peut être tenu responsable des erreurs s'y trouvant, l'entière responsabilité du document me revenant. Cette page est reservée aux étudiants de la Licence 3 de Mathématiques de l'Université de Lille durant l'année 2020-2021.
 
 ## Semestre 6
 ### M61A :
