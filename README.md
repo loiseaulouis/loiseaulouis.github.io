@@ -1,19 +1,15 @@
-# Présentation
-
-
-Les cours appartiennent entièrement aux enseignants respectifs, tout comme les TD.
+# Remarque
+Après discussion : les corrections de TD sont des prises de notes tapées durant les séances. Néanmoins, aucun enseignant ne peut être tenu responsable des erreurs s'y trouvant, l'entière responsabilité du document me revenant. Cette page est reservée
 
 ## Semestre 6
 ### M61A :
-Chargée de cours: [[Mylène Maïda](http://math.univ-lille1.fr/~maida/)]   
+Le polycopié est  l'oeuvre de  [[Mylène Maïda](http://math.univ-lille1.fr/~maida/)].
 
 - Cours [[Partie 1](M61A/IP-L3.pdf)]
 - TD 1 [[Énoncé]()] [[Correction](M61A/TD1.pdf)]
 - TD 2 [[Énoncé]()] [[Correction](M61A/TD2.pdf)]
 
 ### M62:
-
-Chargé de cours: [[Olivier Goubet]()]  
 
 - TD 1 [[Énoncé](M62/ExercicesEDO_1.pdf)] [[Correction](M62/TD1.pdf)]
 - TD 2 [[Énoncé](M62/ExercicesEDO_2.pdf)] [[Correction](M62/TD2.pdf)]
