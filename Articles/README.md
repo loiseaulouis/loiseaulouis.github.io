@@ -13,7 +13,7 @@ Ces documents sont des premières ébauches à des leçons type "agreg" mais uni
 Sont ici présentés certains travaux de "recherche"; non pas au sens académique mais des sujets qui m'ont intéressé au point de les étudier plus ou moins sérieusement et dont j'ai retranscrit une partie de mes notes et quelques fois inclu une bibliographie pour en garder une trace.
 
 
-- Théorie des représentations [[pdf][representations.pdf]]
-- Théorie des catégories [[pdf][categories.pdf]]  
-- Quelques éléments d'informatique pour les systèmes de réécritue [[pdf][intro-info.pdf]]
-- Une approche matricielle des nombres complexes (devenu très simpliste avec le recul, peu intéressant) [[pdf][matrice_complexe.pdf]]
+- Théorie des représentations [[pdf](representations.pdf)]
+- Théorie des catégories [[pdf](categories.pdf)]  
+- Quelques éléments d'informatique pour les systèmes de réécritue [[pdf](intro-info.pdf)]
+- Une approche matricielle des nombres complexes (devenu très simpliste avec le recul, peu intéressant) [[pdf](matrice_complexe.pdf)]
