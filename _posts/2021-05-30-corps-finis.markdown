@@ -6,6 +6,6 @@ categories: articles
 usemathjax: true
 ---
 
-J'avais depuis quelques temps en tête l'idée de parler "du" polynôme cyclotomique, qui fait le lien entre les racines de l'unité (c'est-à-dire les $n$ solutions $\omega$ de $\omega^n = 1$), une notion présentée en général en première année d'études supérieures; et les corps finis, plutôt abordés au bout de 3 à 4 ans.
+J'avais depuis quelques temps en tête l'idée de parler "du" polynôme cyclotomique, qui fait le lien entre les racines de l'unité (c'est-à-dire les \\(n\\) solutions \\(\omega\\) de \\(\omega^n = 1\\)), une notion présentée en général en première année d'études supérieures; et les corps finis, plutôt abordés au bout de 3 à 4 ans.
 
 Mais, encore indécis quant à l'orientation de mes articles, il n'est pas idiot de (re)présenter les corps finis. Je ne rappellerai pas les notions de groupes et anneaux car, même si elles sont fondamentales, elles n'auraient pas d'intérêt ici si ce n'est alourdir le contenu.
