@@ -32,6 +32,7 @@ email: louis.loiseau@protonmail.com
 theme: minima
 plugins:
   - jekyll-feed
+use_mathjax: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
