@@ -5,7 +5,7 @@ date:   2021-05-29 17:59:53 +0200
 categories: articles
 ---
 
-Bonjour $1+1=36$.
+Bonjour\\(1+1=2\\)
 
 $$1+1=2$$
 
