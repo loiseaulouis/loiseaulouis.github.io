@@ -4,15 +4,8 @@ title: À propos
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Apprenti mathématicien de 20 ans, je m'intéresse à la recherche en mathématiques et sa diffusion.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Je partage ici des sujets qui m'intéressent ou plus généralement que j'ai envie de présenter; revenir sur une démonstration, adopter un nouveau point de vue ou introduire un domaine particulier.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Je m'intéresse principalement à la géométrie (algébrique et différentielle) où mes connaissances sont encore limitées mais rien n'exclut que je diverge. 
