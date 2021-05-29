@@ -3,6 +3,7 @@ layout: post
 title:  "Premier test"
 date:   2021-05-29 17:59:53 +0200
 categories: articles
+usemathjax: true
 ---
 
 Bonjour \\(1+1=2\\)

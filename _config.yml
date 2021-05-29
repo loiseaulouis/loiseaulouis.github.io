@@ -32,9 +32,10 @@ email: louis.loiseau@protonmail.com
 theme: minima
 plugins:
   - jekyll-feed
-use_mathjax: true
 kramdown:
   math_engine: mathjax
+use_mathjax: true
+
 
 
 # Exclude from processing.
