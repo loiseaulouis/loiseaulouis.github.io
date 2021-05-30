@@ -32,3 +32,9 @@ Peu importe les structures sur lesquelles on travaille, il est nécessaire de se
 Soient donc \\(K\\) et \\(K^\prime\\) deux corps. on appelle **morphisme de corps** une application \\( \varphi : K \longrightarrow K^\prime \\) telle que, pour tout \\((x,y) \in K^2\\),
 * \\( \varphi(x+y) = \varphi(x) + \varphi(y) \\)
 * \\( \varphi(xy) = \varphi(x) \varphi(y) \\)
+
+On peut d'ailleurs montrer facilement que tout morphisme de corps est injectif, soit en remarquant qu'un tel morphisme conserve le neutre, soit en considérant les idéaux.
+
+Présentons maintenant un outil fondamental dans l'étude des corps: la **caractéristique**. Nous verrons plus loin en quoi cette notion est importante.
+
+Considérons le morphisme (d'anneau) suivant : \\[ \begin{aligned} \varphi : \mathbf{Z} &\longrightarrow K \\ n \longrightarrow n \cdot 1 = 1+1+\cdots+1\end{aligned} \\]
