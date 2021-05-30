@@ -44,4 +44,4 @@ La caractéristique de $$K$$ est le plus petit entier $$n>0$$ tel $$\varphi(n) >
 
 Le noyau $$\mathrm{ker} \varphi$$ de ce morphisme est un idéal de $$\mathbf{Z}$$, il est donc de la forme $$d \mathbf{Z}$$, où $$d$$ est un entier.
 
-De plus, par théorème d'isomorphisme, on sait que $$\mathbf{Z}/\mathrm{ker} \varphi} $$
+De plus, par théorème d'isomorphisme, on sait que $$\mathbf{Z} / \mathrm{ker} \varphi $$
