@@ -21,4 +21,4 @@ Historiquement, cette notion s'est imposée assez naturellement, l'algèbre, de 
 
 Du point de vue de l'étudiant, il est pourtant très compliqué de voir le lien entre cette structure et l'étude des polynômes. Typiquement, quand on cherche à savoir si un polynôme est irréductible, une façon de faire peut être d'étudier sa *réduction modulo un nombre premier \\(p\\)*. Pour se faire, en plus de savoir manipuler les résultats sur les corps, l'étudiant doit au préalable avoir des notions d'arithmétique (et donc de théorie des anneaux), mais aussi être familier des morphismes de réduction et donc de la *propriété universelle*, qu'on rencontre pour la première fois en étudiant les groupes.
 
-Le but ici n'est pas de faire un cours exhaustif de troisième année de licence, aussi je vais présenter les outils généraux
+Le but ici n'étant pas de faire un cours exhaustif de troisième année de licence, je vais me contenter d'une approche plus ou moins intuitive des principaux outils de base.
