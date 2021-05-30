@@ -18,7 +18,7 @@ Les corps sont une des trois grandes structures de base de l'algèbre, avec les 
 
 Nous connaissons déjà assez bien trois (souvent quatre!) exemples de corps commutatif, il s'agit de ceux des nombres rationnels, réels et complexes, \\( \mathbf{Q}, \mathbf{R}, \mathbf{C} \\) ou le corps des entiers modulo un premier, \\(\mathbf{Z}/p \mathbf{Z} \\).
 
-Historiquement, cette notion s'est imposée assez naturellement, l'algèbre, de l'Antiquité à la fin du XIXème siècle, était consacrée à l'étude et la résolution des équations polynomiales, et avec le développement des structures algébriques par Galois, des travaux sur une nouvelle structure permettant d'étudier beaucoup plus simplement ces polynômes sont devenus presque essentiels.
+Historiquement, cette notion s'est imposée assez naturellement. L'algèbre, de l'Antiquité jusqu'à la fin du XIXème siècle, était consacrée à l'étude et la résolution des équations polynomiales, et avec le développement des structures algébriques par Galois, des travaux sur une nouvelle structure permettant d'étudier beaucoup plus simplement ces polynômes sont devenus presque essentiels.
 
 Du point de vue de l'étudiant, il est pourtant très compliqué de voir le lien entre cette structure et l'étude des polynômes. Typiquement, quand on cherche à savoir si un polynôme est irréductible, une façon de faire peut être d'étudier sa *réduction modulo un nombre premier \\(p\\)*. Pour se faire, en plus de savoir manipuler les résultats sur les corps, l'étudiant doit au préalable avoir des notions d'arithmétique (et donc de théorie des anneaux), mais aussi être familier des morphismes de réduction et donc de la *propriété universelle*, qu'on rencontre pour la première fois en étudiant les groupes.
 
@@ -28,7 +28,6 @@ Morphismes, caractéristique, sous-corps premier
 --
 
 Peu importe les structures sur lesquelles on travaille, il est nécessaire de se donner des applications qui préservent cette structure. Autrement dit, on souhaite ici définir une classe d'application d'une application vers une autre, conservant les propriétés des dits corps. En algèbre, on appelle ces applications morphismes (ou homomorphisme) de *truc*, où *truc* est un groupe,anneau,corps, etc.
-#Dans un cadre plus général, celui de la théorie des catégories, on parle aussi de flèche.
 
 Soient donc \\(K\\) et \\(K^\prime\\) deux corps. on appelle **morphisme de corps** une application \\( \varphi : K \longrightarrow K^\prime \\) telle que, pour tout \\((x,y) \in K^2\\),
 * \\( \varphi(x+y) = \varphi(x) + \varphi(y) \\)
@@ -41,5 +40,8 @@ Présentons maintenant un outil fondamental dans l'étude des corps: la **caract
 Considérons le morphisme (d'anneau) suivant :
 \\[ \begin{aligned} \varphi : \mathbf{Z} &\longrightarrow K \\\ n &\longrightarrow n \cdot 1 = 1+1+\cdots+1\end{aligned} \\]
 
-retest $$1+1=2$$
-$$2+2=4$$
+La caractéristique de $$K$$ est le plus petit entier $$n>0$$ tel $$\varphi(n) >0$$. De façon plus précise:
+
+*Le noyau $$\mathrm{ker} \varphi$$ de ce morphisme est un idéal de $$\mathbf{Z}$$, il est donc de la forme $$d \mathbf{Z}$$, où $$d$$ est un entier.
+
+De plus, par théorème d'isomorphisme, on sait que $$\mathbf{Z}/\mathrm{ker} \varphi} $$*
