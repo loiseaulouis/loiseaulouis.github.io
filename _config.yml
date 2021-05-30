@@ -32,7 +32,8 @@ email: louis.loiseau@protonmail.com
 theme: minima
 plugins:
   - jekyll-feed
-disqus.shortname: louisloiseau
+disqus:
+shortname: louisloiseau
 
 # Exclude from processing.
 # The following items will not be processed, by default.
