@@ -40,3 +40,6 @@ Présentons maintenant un outil fondamental dans l'étude des corps: la **caract
 
 Considérons le morphisme (d'anneau) suivant :
 \\[ \begin{aligned} \varphi : \mathbf{Z} &\longrightarrow K \\\ n &\longrightarrow n \cdot 1 = 1+1+\cdots+1\end{aligned} \\]
+
+retest $$1+1=2$$
+$$2+2=4$$
