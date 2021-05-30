@@ -15,7 +15,7 @@ Qu'est-ce qu'un corps ?
 
 Les corps sont une des trois grandes structures de base de l'algèbre, avec les groupes et les anneaux. C'est aussi la plus petite et la plus complexe, car un corps vérifie les axiomes d'un anneau (et donc d'un groupe). Cela se traduit par le fait qu'on peut définir une *addition* et une *multiplication*, auxquelles on rajoute une hypothèse plus forte: tout élément est inversible pour la multiplication. Intuitivement, on rajoute la capacité de *diviser* les éléments. En effet, si tout élément \\(a\\) admet un inverse \\(a^{-1}\\), on peut toujours multiplier par \\(a^{-1}\\), et en "choisissant" la notation \\(\frac{1}{a}\\), on peut bien diviser par \\(a\\).
 
-Nous connaissons déjà assez bien trois (souvent quatre!) exemples de corps commutatif, il s'agit de ceux des nombres rationnels, réels et complexes, \\( \mathbf{Q}, \mathbf{R}, \mathbf{C} \\) ou le corps des entiers modulo un premier, \\(\mathbf{Z}/p\mathbfZ \\).
+Nous connaissons déjà assez bien trois (souvent quatre!) exemples de corps commutatif, il s'agit de ceux des nombres rationnels, réels et complexes, \\( \mathbf{Q}, \mathbf{R}, \mathbf{C} \\) ou le corps des entiers modulo un premier, \\(\mathbf{Z}/p \mathbf{Z} \\).
 
 Historiquement, cette notion s'est imposée assez naturellement, l'algèbre, de l'Antiquité à la fin du XIXème siècle, était consacrée à l'étude et la résolution des équations polynomiales, et avec le développement des structures algébriques par Galois, des travaux sur une nouvelle structure permettant d'étudier beaucoup plus simplement ces polynômes sont devenus presque essentiels.
 
