@@ -56,3 +56,39 @@ C'est-à-dire que $$T(X) = \prod_{q \in Q} \phi_q(X)$$, qui est donc un polynôm
 Si maintenant on suppose que $$m<n$$, alors $$n \in Q$$, et donc $$T(X) = \phi_n \cdot \prod_{q \in Q \setminus \\{n\\}} \phi_q(X) $$, ce qui est le résultat voulu.
 
 Démonstration du théorème.
+==
+
+Entrons enfin dans le vif du sujet. Au programme comme promis: extensions de corps, actions de groupes et polynômes cyclotomiques. On pourra notamment se référer au *Cours d'Algèbre* de Perrin, ou aux *Raisonnements Divins* de Aigner et Ziegler.
+
+Soit $$K$$ un corps fini. On notera $$Z$$ son centre (ie: l'ensemble des éléments de $$K$$ qui commutent avec tous les autres). C'est en particulier un sous-corps de $$K$$, et si on note son cardinal $$q$$, alors par propriétés des corps finis, le cardinal de $$K$$ s'écrit $$q^n$$.
+
+Raisonnons par l'absurde en supposant que $$K$$ n'est pas commutatif. Par définition du centre, on a forcément $$K \neq Z$$, et donc $$n>1$$. On considère l'extension de $$Z$$ suivante:
+
+\\[ Z_x = \\{ a \in K ~\mid~ ax = xa \\} \\]
+
+On a donc défini une tour d'extension $$ Z \subset Z_x \subset K$$. Il existe alors deux entiers $$m(x)$$ et $$n(x)$$ de sorte quelques
+
+\\[ q^n = \mid Z_x \mid^{m(x)} = q^{d(x) m(x)}\\]
+
+D'où $$n = d(x) m(x)$$. En particlier, $$d(x)$$ divise $$n$$ pour tout $$x \in K$$.
+
+On va maintenant considérer l'action de $$K^\times$$ (le groupe multiplicatif) sur lui-même par *conjuguaison*. Cette action possède des orbites $$\omega_x$$ et un stabilisateur $$\mathrm{Stab}(x)$$. On a
+
+\\[ Z_y = \mathrm{Stab}(x) \cup \\{0\\} \\]
+
+De là, on tire que $$\mid \mathrm{Stab}(x) \mid = \mid Z_y \mid - 1 = q^{d(y)} - 1$$.
+
+On a deplus
+
+\\[ \mid \omega_x \mid = 1 \iff \omega_x = \\{x\\} \iff \mathrm{Stab}(x) = K^\times \ìff x \in Z^\times \\]
+
+Soient $$(z_i)_{0\leqslant i \leqslant q-1}$$ les éléments de $$Z$$. On a $$z_0 = 0$$. Ces éléments ont une orbite réduite à un point.
+ Celles qui s'intersectent avec $$Z^\times$$ sont $$ \omega_{z_1}, \cdots, \omega_{z_{q-1}} $$. On note $$\omega_{y_1}, \cdots, \omega_{y_r}$$ les autres.
+
+ C'est ici qu'intervient la formule des classes, induite par l'action. Elle nous donne:
+
+ \\[ \mid K^\times \mid = \mid Z^\times \mid + \sum_{i=1}^r \frac{\mid K^\times \mid}{\mid \mathrm{Stab}(y_i) \mid} \\]
+
+Ce qui s'écrit, d'après les considérations précédentes,
+
+\\[ q^n - 1 = (q-1) + \sum_{i=1}^r \frac{q^n - 1}{q^{d(y_i)} - 1} \\]
