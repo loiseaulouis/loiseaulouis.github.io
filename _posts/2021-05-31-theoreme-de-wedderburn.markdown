@@ -16,8 +16,8 @@ Bien que l'on ait appris après que la preuve de Wedderburn était fausse, ou au
 
 La beauté de cette preuve lui a valu d'être publiée dans le livre des *Raisonnements divins* (*Proofs from the Book*), et c'est celle-ci que j'aimerai présenter aujourd'hui.
 
-Racines de l'unité et polynômes cyclotomiques
---
+Racines de l'unité et polynômes cyclotomiques.
+==
 
 Rappellons que l'ensemble des *racines primitives de l'unité* est donné par
 \\[ \Delta_n = \\{ e^{2i \pi k / n} ~|~ 0 \leqslant k \leqslant n-1, ~ \mathrm{pgcd}(k,n) = 1 \\} \\]
@@ -54,3 +54,5 @@ Notons alors $$Q$$ l'ensemble des diviseurs de $$n$$ ne divisant pas $$m$$, on o
 C'est-à-dire que $$T(X) = \prod_{q \in Q} \phi_q(X)$$, qui est donc un polynôme de $$\mathbf{Z}[X]$$ par la remarque précédente.
 
 Si maintenant on suppose que $$m<n$$, alors $$n \in Q$$, et donc $$T(X) = \phi_n \cdot \prod_{q \in Q \setminus \\{n\\}} \phi_q(X) $$, ce qui est le résultat voulu.
+
+Démonstration du théorème.
