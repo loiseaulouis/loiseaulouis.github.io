@@ -5,6 +5,7 @@ date:   2021-05-30 00:00:35 +0200
 categories: articles
 usemathjax: true
 comments: true
+tags: algebre corps 
 ---
 
 J'avais depuis quelques temps en tête l'idée de parler de polynôme cyclotomique, qui fait le lien entre les racines de l'unité (c'est-à-dire les \\(n\\) solutions \\(\omega\\) de \\(\omega^n = 1\\)), une notion présentée en général en première année d'études supérieures; et les corps finis, plutôt abordés au bout de 3 à 4 ans.
