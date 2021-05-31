@@ -53,4 +53,4 @@ Notons alors $$Q$$ l'ensemble des diviseurs de $$n$$ ne divisant pas $$m$$, on o
 
 C'est-à-dire que $$T(X) = \prod_{q \in Q} \phi_q(X)$$, qui est donc un polynôme de $$\mathbf{Z}[X]$$ par la remarque précédente.
 
-Si maintenant on suppose que $$m<n$$, alors $$n \in Q$$, et donc $$T(X) = \phi_n \cdot \prod_{q \in Q \setminus \\{n\\}} \phi_q(X) }$$, ce qui est le résultat voulu.
+Si maintenant on suppose que $$m<n$$, alors $$n \in Q$$, et donc $$T(X) = \phi_n \cdot \prod_{q \in Q \setminus \\{n\\}} \phi_q(X) $$, ce qui est le résultat voulu.
