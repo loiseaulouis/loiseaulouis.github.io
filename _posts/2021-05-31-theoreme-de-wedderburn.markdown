@@ -43,7 +43,7 @@ Soient $$1 \leqslant m \leqslant n$$ deux entiers. On définit la fraction ratio
 Alors dans ce cas,
 
 * Si $$m$$ divise $$n$$, alors $$T$$ est à coefficients entiers.
-* Si de plus, $$m<n$$, alors $$T$$ est divisible par $$\phi_n$$. (dans $$\mathbf{Z}[X] !)
+* Si de plus, $$m<n$$, alors $$T$$ est divisible par $$\phi_n$$. (dans $$\mathbf{Z}[X]$$ !)
 
 Pour le voir, il faut d'abord noter que si $$m$$ divise $$n$$, alors les diviseurs de $$n$$ sont le résultat de l'union des diviseurs de $$m$$ et des diviseurs de  $$n$$ qui ne divisent pas $$n$$.
 
