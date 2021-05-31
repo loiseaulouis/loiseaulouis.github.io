@@ -40,7 +40,7 @@ On peut d'ailleurs montrer facilement que tout morphisme de corps est injectif, 
 
 Présentons maintenant un outil fondamental dans l'étude des corps: la **caractéristique**. Nous verrons plus loin en quoi cette notion est importante.
 
-Quand on travaille sur des nombres réels ou rationnels, on sait qu'on peut additionner autant que l'on veut, le résultat ne sera jamais nul. Mais si l'on est sur $$\mathf{Z} / 2 \mathbf{Z}$$, ce n'est déjà plus vrai, on a $$1 + 1 = 2 \cdot 1 = 0$$. C'est précisement l'idée de caractéristique d'un corps; le plus petit entier $$n>0$$ tel que $$1 \cdot n = 1+1+\cdots+1 = 0$$. Dans l'exemple précédent, c'est bien sûr $$2$$. Pour $$\mathbf{R}$$, c'est $$0$$. On peut préciser un peu les choses:
+Quand on travaille sur des nombres réels ou rationnels, on sait qu'on peut additionner autant que l'on veut, le résultat ne sera jamais nul. Mais si l'on est sur $$\mathbf{Z} / 2 \mathbf{Z}$$, ce n'est déjà plus vrai, on a $$1 + 1 = 2 \cdot 1 = 0$$. C'est précisement l'idée de caractéristique d'un corps; le plus petit entier $$n>0$$ tel que $$1 \cdot n = 1+1+\cdots+1 = 0$$. Dans l'exemple précédent, c'est bien sûr $$2$$. Pour $$\mathbf{R}$$, c'est $$0$$. On peut préciser un peu les choses:
 
 Considérons le morphisme (d'anneau) suivant :
 \\[ \begin{aligned} \varphi : \mathbf{Z} &\longrightarrow K \\\ n &\longrightarrow n \cdot 1 = 1+1+\cdots+1\end{aligned} \\]
