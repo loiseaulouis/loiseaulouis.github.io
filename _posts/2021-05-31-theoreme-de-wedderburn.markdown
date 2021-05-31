@@ -20,7 +20,7 @@ Racines de l'unité et polynômes cyclotomiques
 --
 
 Rappellons que l'ensemble des *racines primitives de l'unité* est donné par
-\\[ \Delta_n = \\{ e^{2i \pi k / n} ~|~ 0 \leqslant k \leqslant n-1, ~ \mathrm{pgcd}(k,n) \\} \\]
+\\[ \Delta_n = \\{ e^{2i \pi k / n} ~|~ 0 \leqslant k \leqslant n-1, ~ \mathrm{pgcd}(k,n) = 1 \\} \\]
 
 Cette notion de base de l'analyse complexe est fortement liée à l'arithmétique (a extensio à l'étude des anneaux et des corps finis), plus particulièrement à la fonction *indicatrice d'Euler* par la relation $$ \varphi(n) = \| \Delta_n \| $$.
 
