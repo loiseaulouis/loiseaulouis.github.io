@@ -26,4 +26,4 @@ Cette notion de base de l'analyse complexe est fortement liée à l'arithmétiqu
 
 On définit alors le *polynôme cyclotomique d'ordre $$n$$* comme étant le polynôme de $$\mathbf{C}[X]$$ dont les racines sont exactement les éléments de $$\delta_n$$.
 
-\\[ \phi_n (X) = \Prod_{z \in \delta_n} (X-z) \\]
+\\[ \phi_n (X) = \prod_{z \in \delta_n} (X-z) \\]
