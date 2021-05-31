@@ -7,9 +7,12 @@ usemathjax: true
 comments: true
 ---
 
-J'avais depuis quelques temps en tête l'idée de parler "du" polynôme cyclotomique, qui fait le lien entre les racines de l'unité (c'est-à-dire les \\(n\\) solutions \\(\omega\\) de \\(\omega^n = 1\\)), une notion présentée en général en première année d'études supérieures; et les corps finis, plutôt abordés au bout de 3 à 4 ans.
+J'avais depuis quelques temps en tête l'idée de parler de polynôme cyclotomique, qui fait le lien entre les racines de l'unité (c'est-à-dire les \\(n\\) solutions \\(\omega\\) de \\(\omega^n = 1\\)), une notion présentée en général en première année d'études supérieures; et les corps finis, plutôt abordés au bout de 3 à 4 ans.
 
 Mais, encore indécis quant à l'orientation de mes articles, je préfère d'abord (re)présenter les corps finis. Je ne rappellerai pas les notions de groupes et anneaux car, même si elles sont fondamentales, elles n'auraient pas d'intérêt ici si ce n'est alourdir le contenu.
+
+Je recommande tout de même d'avoir quelques notions de première année d'études supérieures scientifiques, au moins pour avoir une idée de ce que peut être une *structure*, une *sous-structure*, un morphisme de *structure* etc. Dans tous les cas je vais essayer - au moins dans ce billet - de d'abord donner des approches intuitives, et ensuite de les traduire en termes mathématiques, pour ceux qui ont déjà ces connaissances.
+
 
 Qu'est-ce qu'un corps ?
 ==
@@ -37,13 +40,15 @@ On peut d'ailleurs montrer facilement que tout morphisme de corps est injectif, 
 
 Présentons maintenant un outil fondamental dans l'étude des corps: la **caractéristique**. Nous verrons plus loin en quoi cette notion est importante.
 
+Quand on travaille sur des nombres réels ou rationnels, on sait qu'on peut additionner autant que l'on veut, le résultat ne sera jamais nul. Mais si l'on est sur $$\mathf{Z} / 2 \mathbf{Z}$$, ce n'est déjà plus vrai, on a $$1 + 1 = 2 \cdot 1 = 0$$. C'est précisement l'idée de caractéristique d'un corps; le plus petit entier $$n>0$$ tel que $$1 \cdot n = 1+1+\cdots+1 = 0$$. Dans l'exemple précédent, c'est bien sûr $$2$$. Pour $$\mathbf{R}$$, c'est $$0$$. On peut préciser un peu les choses:
+
 Considérons le morphisme (d'anneau) suivant :
 \\[ \begin{aligned} \varphi : \mathbf{Z} &\longrightarrow K \\\ n &\longrightarrow n \cdot 1 = 1+1+\cdots+1\end{aligned} \\]
-
-La caractéristique de $$K$$ est le plus petit entier $$n>0$$ tel $$\varphi(n) >0$$. De façon plus précise:
 
 Le noyau $$\mathrm{ker} \varphi$$ de ce morphisme est un idéal de $$\mathbf{Z}$$, il est donc de la forme $$d \mathbf{Z}$$, où $$d$$ est un entier.
 
 De plus, par théorème d'isomorphisme, on sait que $$\mathbf{Z} / \mathrm{ker} \varphi \simeq \mathrm{im} \varphi $$ est un sous-anneau de $$K$$, donc intègre.
 
 On a alors deux possibilités, ou bien $$\varphi$$ est injectif, ou bien $$\mathrm{ker} \varphi = p \mathbf{Z}$$. Dans le premier cas, alors $$\varphi(\mathbf{Z}) \subset K$$, alors $$K$$ est infini, et en tant corps, il contient un sous-corps isomorphe à $$\mathbf{Q}$$.
+
+Finalement, on appelle caractéristique le nombre $$p$$ qui engendre le noyau de $$\varphi$$.
