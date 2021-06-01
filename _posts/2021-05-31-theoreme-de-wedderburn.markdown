@@ -97,4 +97,16 @@ Il est alors (plus ou moins) naturel de considérer la fraction rationnelle
 
 \\[ F(X) = (X^n - 1) -  \sum_{i=1}^r \frac{X^n - 1}{X^{d(y_i) - 1}} \\]
 
-Qui est en fait un polynôme de $$\mathbf{Z}[X]$$ car car $$d(y_i) \mid n$$
+Qui est en fait un polynôme de $$\mathbf{Z}[X]$$ car car $$d(y_i) \mid n$$. On peut même aller plus loin, et constater que  $$ d(y_i) < n $$, et par conséquent $$ \frac{X^n-1}{X^{d(y_i)} - 1} $$ est divisible par $$\phi_n(X)$$. (toujours dans $$\mathbf{Z}! $$). Comme il divise de plus $$X^n - 1$$, il divise $$F$$. On peut donc l'écrire $$F = Q \phi$$ pour un certain polynôme $$Q$$. Évalué en $$q$$, on doit avoir:
+
+\\[   F(q) = Q(p)\phi_n(Q) = q-1  \\]
+
+Si $$q=1$$, c'est fini. Sinon, on a $$\mid Q(q) \mid \geqslant 1$$, et donc (et c'est le point le plus important)
+
+\\[ \mid \phi_n(q) \mid = \prod_{z \in \Delta_n} |q-z| \leqslant q-1 \\]
+
+Un argument géométrique va maintenant nous permettre de conclure.
+
+S'il existe $$z_0 \in \Delta_n$$ tel que $$\mid z_0 - q \mid \leqslant q-1$$, alors $$z_0 \neq 1$$ (car $$n \geqslant 2$$ par les premières considérations sur le centre). Mais $$\mid q-z_0 \mid > q-1$$, donc $$\mid \phi_n(q) > q-1$$, ce qui est absurde.
+
+On a ainsi démontré que tout corps fini est commutatif.
