@@ -92,3 +92,9 @@ Soient $$(z_i)_{0\leqslant i \leqslant q-1}$$ les éléments de $$Z$$. On a $$z_
 Ce qui s'écrit, d'après les considérations précédentes,
 
 \\[ q^n - 1 = (q-1) + \sum_{i=1}^r \frac{q^n - 1}{q^{d(y_i)} - 1} \\]
+
+Il est alors (plus ou moins) naturel de considérer la fraction rationnelle
+
+\\[ F(X) = (X^n - 1) -  \sum_{i=1}^r \frac{X^n - 1}{X^{d(y_i) - 1}} \\]
+
+Qui est en fait un polynôme de $$\mathbf{Z}[X]$$ car car $$d(y_i) \mid n$$
