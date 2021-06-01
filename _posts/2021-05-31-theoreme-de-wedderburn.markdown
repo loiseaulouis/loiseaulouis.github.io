@@ -53,7 +53,7 @@ Notons alors $$Q$$ l'ensemble des diviseurs de $$n$$ ne divisant pas $$m$$, on o
 
 C'est-à-dire que $$T(X) = \prod_{q \in Q} \phi_q(X)$$, qui est donc un polynôme de $$\mathbf{Z}[X]$$ par la remarque précédente.
 
-Si maintenant on suppose que $$m<n$$, alors $$n \in Q$$, et donc $$T(X) = \phi_n \cdot \prod_{q \in Q \setminus \\{n\\}} \phi_q(X) $$, ce qui est le résultat voulu.
+Si maintenant on suppose que $$m<n$$, alors $$n \in Q$$, et donc $$T(X) = \phi_n \cdot \prod_{q \in Q \setminus \\{n\\} } \phi_q(X) $$, ce qui est le résultat voulu.
 
 Démonstration du théorème.
 ==
@@ -66,7 +66,7 @@ Raisonnons par l'absurde en supposant que $$K$$ n'est pas commutatif. Par défin
 
 \\[ Z_x = \\{ a \in K ~\mid~ ax = xa \\} \\]
 
-On a donc défini une tour d'extension $$ Z \subset Z_x \subset K$$. Il existe alors deux entiers $$m(x)$$ et $$n(x)$$ de sorte quelques
+On a donc défini une tour d'extension $$ Z \subset Z_x \subset K$$. Il existe alors deux entiers $$m(x)$$ et $$n(x)$$ de sorte que
 
 \\[ q^n = \mid Z_x \mid^{m(x)} = q^{d(x) m(x)}\\]
 
@@ -103,7 +103,7 @@ Qui est en fait un polynôme de $$\mathbf{Z}[X]$$ car car $$d(y_i) \mid n$$. On 
 
 Si $$q=1$$, c'est fini. Sinon, on a $$\mid Q(q) \mid \geqslant 1$$, et donc (et c'est le point le plus important)
 
-\\[ \mid \phi_n(q) \mid = \prod_{z \in \Delta_n} |q-z| \leqslant q-1 \\]
+\\[ \mid \phi_n(q) \mid = \prod_{z \in \Delta_n} \mid q-z \mid  \leqslant q-1 \\]
 
 Un argument géométrique va maintenant nous permettre de conclure.
 
