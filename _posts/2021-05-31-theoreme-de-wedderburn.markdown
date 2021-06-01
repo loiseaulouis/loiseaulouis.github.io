@@ -99,7 +99,7 @@ Il est alors (plus ou moins) naturel de considérer la fraction rationnelle
 
 Qui est en fait un polynôme de $$\mathbf{Z}[X]$$ car car $$d(y_i) \mid n$$. On peut même aller plus loin, et constater que  $$ d(y_i) < n $$, et par conséquent $$ \frac{X^n-1}{X^{d(y_i)} - 1} $$ est divisible par $$\phi_n(X)$$. (toujours dans $$\mathbf{Z}! $$). Comme il divise de plus $$X^n - 1$$, il divise $$F$$. On peut donc l'écrire $$F = Q \phi$$ pour un certain polynôme $$Q$$. Évalué en $$q$$, on doit avoir:
 
-\\[   F(q) = Q(p)\phi_n(Q) = q-1  \\]
+\\[   F(q) = Q(q)\phi_n(q) = q-1  \\]
 
 Si $$q=1$$, c'est fini. Sinon, on a $$\mid Q(q) \mid \geqslant 1$$, et donc (et c'est le point le plus important)
 
