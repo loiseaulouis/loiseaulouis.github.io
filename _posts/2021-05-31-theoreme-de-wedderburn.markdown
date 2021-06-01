@@ -6,6 +6,7 @@ categories: articles
 usemathjax: true
 comments: true
 tags: algebre corps-fini theoreme preuve
+header-img: "img/Wedderburn.jpeg"
 ---
 
 Il est coutume en France de considérer tout corps comme étant commutatif. Dans le cas contraire on parle alors de corps gauche, le plus connu étant le corps $$\mathbf{H}$$ des quaternions.
