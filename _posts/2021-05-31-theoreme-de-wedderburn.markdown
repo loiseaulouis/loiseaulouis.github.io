@@ -107,6 +107,6 @@ Si $$q=1$$, c'est fini. Sinon, on a $$\mid Q(q) \mid \geqslant 1$$, et donc (et 
 
 Un argument géométrique va maintenant nous permettre de conclure.
 
-S'il existe $$z_0 \in \Delta_n$$ tel que $$\mid z_0 - q \mid \leqslant q-1$$, alors $$z_0 \neq 1$$ (car $$n \geqslant 2$$ par les premières considérations sur le centre). Mais $$\mid q-z_0 \mid > q-1$$, donc $$\mid \phi_n(q) > q-1$$, ce qui est absurde.
+S'il existe $$z_0 \in \Delta_n$$ tel que $$\mid z_0 - q \mid \leqslant q-1$$, alors $$z_0 \neq 1$$ (car $$n \geqslant 2$$ par les premières considérations sur le centre). Mais $$\mid q-z_0 \mid > q-1$$, donc $$\mid \phi_n(q) \mid > q-1$$, ce qui est absurde.
 
 On a ainsi démontré que tout corps fini est commutatif.
