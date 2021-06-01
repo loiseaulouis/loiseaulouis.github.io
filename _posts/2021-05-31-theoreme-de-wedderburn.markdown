@@ -78,9 +78,9 @@ On va maintenant considérer l'action de $$K^\times$$ (le groupe multiplicatif) 
 
 De là, on tire que $$\mid \mathrm{Stab}(x) \mid = \mid Z_y \mid - 1 = q^{d(y)} - 1$$.
 
-On a deplus
+On a de plus
 
-\\[ \mid \omega_x \mid = 1 \iff \omega_x = \\{x\\} \iff \mathrm{Stab}(x) = K^\times \ìff x \in Z^\times \\]
+\\[ \mid \omega_x \mid = 1 \iff \omega_x = \\{x\\} \iff \mathrm{Stab}(x) = K^\times \iff x \in Z^\times \\]
 
 Soient $$(z_i)_{0\leqslant i \leqslant q-1}$$ les éléments de $$Z$$. On a $$z_0 = 0$$. Ces éléments ont une orbite réduite à un point.
  Celles qui s'intersectent avec $$Z^\times$$ sont $$ \omega_{z_1}, \cdots, \omega_{z_{q-1}} $$. On note $$\omega_{y_1}, \cdots, \omega_{y_r}$$ les autres.
