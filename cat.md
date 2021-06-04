@@ -57,7 +57,7 @@ Catégories, foncteurs
 Comme présenté dans l'introduction, une catégorie est essentiellement la donné d'un ensemble, et de la structure qu'on souhaite lui donner, caractérisée par ses morphismes. Formellement, on a donc:
 
 **Définition.** - Une catégorie $$\mathcal{C}$$ est la donnée de
-* Un ensemble Ob(\mathcal{C}), des *objets* de $$\mathcal{C}$$
+* Un ensemble Ob$$(\mathcal{C})$$, des *objets* de $$\mathcal{C}$$
 * Pour deux objets $$X,Y$$, un ensemble Hom$$_\mathcal{C}(X,Y)$$ des *morphismes de $$X$$ vers $$Y$$*,
 * Pour trois objets $$X,Y,Z$$, une application $$\mathrm{Hom}_\mathcal{C}(X,Y) \times \mathrm{Hom}_\mathcal{C}(Y,Z) \longrightarrow \mathrm{Hom}_\mathcal{C}(X,Z) $$, appelée *composition*, loi associative notée par $$(f,g) \mapsto g \circ f$$.
 
