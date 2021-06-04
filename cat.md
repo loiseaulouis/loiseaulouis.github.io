@@ -158,16 +158,59 @@ Il est maintenant l'heure de faire un pas de plus dans l'abstraction. Nous avons
 Dans un cursus scolaire "normal", il est assez rare de voir des applications qui partent d'une structure dans une autre, il peut donc être difficile de s'imaginer directement un exemple. On pourrait bien penser aux structures algébriques de base, et imaginer par exemple un morphisme (par un grotesque abus de language) d'un anneau vers un corps, mais je n'en connais personnellement aucun qui pourrait être intéressant. En revanche, il y a un exemple simple et assez courant qui est le *foncteur d'oubli*. Le foncteur d'oubli, fait "oublier" à sa source sa structure. Partons par exemple d'un espace topologique. C'est la donnée d'un ensemble, disons $$T$$, et d'une topologie: c'est elle qui donne sa structure à $$T$$. Le foncteur d'oublie va alors renvoyer uniquement $$T$$, l'ensemble sous-jacent de l'espace topologique. De la même façon, on peut considérer un groupe $$(G, \dot)$$ et ne renvoyer que $$G$$. Ce sont là deux foncteurs des catégories $$\mathrm{Top}$$ et $$\mathrm{Grp}$$ vers $$\mathrm{Set}$$. Ce sont là des exemples où les objets perdent "toute" leur structure, mais on peut aussi partir d'un groupe abélien $$G$$, *ie* un objet de $$\mathrm{Ab}$$ et le plonger dans $$\mathrm{Grp}$$, dans ce cas $$G$$ "oublie juste" qu'il est abélien.
 
 **Définition.**
-Soit $$\mathcal{C}, \mathcal{C}^\prime$$ deux catégories. Un *foncteur* $$F : \mathcal{C} \mapsto \mathcal{C}^\prime$$ est la donnée d'une application $$F: \mathrm{Ob} (\mathcal{C}) \mapsto \mathrm{Ob} (\mathcal(C)^\prime)$$ et $$F: \mathrm{Hom}_{\mathcal{C}}(X,Y) \mapsto \mathrm{Hom}_{\mathcal{C}^\prime}(F(X),F(Y))$$ pour tout $$X,Y \in \mathcal{C}$$, qui préserve l'identité et la composition.
+Soit $$\mathcal{C}, \mathcal{C}^\prime$$ deux catégories. Un *foncteur* $$F : \mathcal{C} \mapsto \mathcal{C}^\prime$$ est la donnée d'une application $$F: \mathrm{Ob} (\mathcal{C}) \mapsto \mathrm{Ob} (\mathcal{C}^\prime)$$ et $$F: \mathrm{Hom}_{\mathcal{C}}(X,Y) \mapsto \mathrm{Hom}_{\mathcal{C}^\prime}(F(X),F(Y))$$ pour tout $$X,Y \in \mathcal{C}$$, qui préserve l'identité et la composition.
 Plus clairement, un foncteur est une application qui envoie chaque objet $$X$$ d'une catégorie $$\mathcal{C}$$ vers un objet $$F(X)$$ d'une catégorie $$\mathcal{C}^\prime$$, et chaque morphisme $$f : X \mapsto Y$$ vers un morphisme $$F(f):F(X) \mapsto F(Y)$$.
 Sous de bonnes hypothèses, la composition de deux foncteurs $$G \circ F$$ est donnée par $$(G\circ F)(X) = G(F(X))$$ et $$(G\circ F)(f) = G(F(f))$$.
 
 On appelle *foncteur contravariant* de $$\mathcal{C}$$ vers $$\mathcal{C}^\prime$$ un foncteur de $$\mathcal{C}^{op}$$ vers $$\mathcal{C}$$. C'est-à-dire que $$F(g \circ f) = F(f) \circ F(g)$$.
 
 
-Il pourra être utile par la suite de noté le foncteur contravariant "trivial" $$\mathrm{op}: \mathcal{C} \mapsto \mathcal{C}^{op}$$ défini par l'identité. Notons que tout foncteur $$F:\mathcal{C} \mapsto \mathcal{C}^\prime$$ induit naturellement un foncteur dans le dual $$F^{op} : \mathcal{C}^{op} \mapsto \mathcal{C}^{\prime op}$$
+Il pourra être utile par la suite de noter le foncteur contravariant "trivial" $$\mathrm{op}: \mathcal{C} \mapsto \mathcal{C}^{op}$$ défini par l'identité. Notons que tout foncteur $$F:\mathcal{C} \mapsto \mathcal{C}^\prime$$ induit naturellement un foncteur dans le dual $$F^{op} : \mathcal{C}^{op} \mapsto \mathcal{C}^{\prime op}$$
 
+Après un nouveau point vocabulaire, nous serons en mesure de (enfin !) montrer notre premier résultat.
 
+**Définition.**
+
+* Un foncteur $$F : \mathcal{C} \mapsto \mathcal{C}^\prime$$ est dit *fidèle* (resp. *plein*, *pleinement fidèle*) si
+
+ $$ \mathrm{Hom}_{\mathcal{C}}(X,Y) \mapsto \mathrm{Hom}_{\mathcal{C}^\prime}(F(X),F(Y))  $$
+
+ est injective (resp. surjective, bijective) pour tout $$X,Y \in \mathcal{C}$$.
+
+* On dit que $$F$$ est *essentiellement surjectif* si pour chaque $$Y \in \mathcal{C}^\prime$$, il existe un objet $$X$$ de $$\mathcal{C}$$ et un isomorphisme $$F(X) \simeq Y$$.
+
+* On dit que $$F$$ est *conservatif* si le fait que $$F(f)$$ est un isomorphisme dans $$\mathcal{C}^\prime$$ implique que $$f$$ est déjà un isomorphisme dans $$\mathcal{C}$$.
+
+Par exemple, la foncteur d'oubli défini plus haut est fidèle. (mais pas pleinement)
+
+On peut alors énoncer notre premier résultat, qui s'agit essentiellement d'une sorte de caractérisation des mono/épimorphismes.
+
+**Résultat.** Soit $$F : \mathcal{C} \mapsto \mathcal{C}^\prime$$ un foncteur fidèle et soit $$f: X \mapsto Y$$ un morphisme de $$\mathcal{C}$$. Si $$F(f)$$ est un épimorphisme, (resp. monomorphisme), alors $$f$$ est déjà un épimorphisme. (resp monomorphisme)
+
+La preuve de ce résultat peut être qualifiée de triviale, dans le sens où on ne fait qu'appliquer deux définitions, en fait tout le travail a été d'introduire ces concepts, mais le résultat n'en est pas moins intéressant. Nous ne traiterons que le cas d'un épimorphisme, l'autre étant similaire.
+
+*Démonstration. Supposons que $$F(f)$$ est un épimorphisme et considérons deux flèches parallèles $$f,g: Y \rightrightarrows Z$$ telles que $$g \circ f = h \circ f$$. Alors, par préservation de la composition, $$F(g) \circ F(f) = F(h) \circ F(f)$$. On en déduit alors que $$F(g)=F(h)$$, et comme $$F$$ est fidèle, $$g=h$$.*
+
+J'ai jusqu'ici passé sous silence les notions de catégorie produit et de réunion disjointe de catégories, mais les foncteurs s'appliquent évidemment à ces cas. En particulier, un foncteur $$F: \mathcal{C} \times \mathcal{C} \mapsto \mathcal{C}^{\prime \prime} et appelé un *bifoncteur*. Détaillons.
+
+Pour $$X \in \mathcal{C}, ~ X^$\prime \in \mathcal{C}^\prime$$, les applications $$F(X, \cdot): \mathcal{C}^\prime \mapsto \mathcal{C}^{\prime \prime}$$ et  $$F(\cdot, X): \mathcal{C} \mapsto \mathcal{C}^{\prime \prime}$$ sont des foncteurs. De plus, pour tout morphisme $$f : X \mapsto Y$$ dans $$\mathcal{C}$$, $g : X^\prime \mapsto Y^\prime$$ de $$\mathcal{C}^\prime$$, le diagramme suivant commute:
+
+$$
+\require{AMScd}
+\begin{CD}
+F(X,X^\prime) @>{F(X,g)}>> F(X,Y^\prime)\\
+@V{F(f,X^\prime)}VV @VV{F(f,Y^\prime)}V\\
+F(Y,X^\prime) @>{F(Y,g)}>> F(Y,Y^\prime)^\prime
+\end{CD} $$
+
+On peut citer l'exemple, pour une $$\mathcal{U}$$-catégorie $$\mathcal{C}$$, le bifoncteur $$\mathrm{Hom}_{\mathcal{C}}(\cdot,\cdot) : \mathcal{C}^{op} \times \mathcal{C} \mapsto \mathrm{Set}.
+
+Morphismes de foncteur, lemme de Yoneda
+==
+
+Je concluerai cet article par un dernier saut abstractif. Celui-ci consiste en une rapide présentation des morphismes de foncteurs (car après tout, des morphismes entre des images de morphismes entre des catégories, rien de plus simple ?) puis par l'énoncé du lemme de Yoneda. En dehors de l'aspect conceptuel, cette partie aura surtout pour intérêt de présenter des résultats et, a extenso, des démonstrations utilisant les outils présentés jusqu'ici.
+
+**Définition.** Soit $$\mathcal{C}, \mathcal{C}^\prime$$ deux catégories et $$F_1,F_2$$ deux foncteurs de $$\mathcal{C}$$ vers $$\mathcal{C}^\prime$$
 
 Références
 --
