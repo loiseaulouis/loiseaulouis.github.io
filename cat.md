@@ -57,7 +57,7 @@ Catégories, foncteurs
 Comme présenté dans l'introduction, une catégorie est essentiellement la donné d'un ensemble, et de la structure qu'on souhaite lui donner, caractérisée par ses morphismes. Formellement, on a donc:
 
 **Définition.** - Une catégorie $$\mathcal{C}$$ est la donnée de
-* Un ensemble Ob$$(\mathcal{C})$$, des *objets* de $$\mathcal{C}$$
+* Un ensemble $$\mathrm{Ob}(\mathcal{C})$$, des *objets* de $$\mathcal{C}$$
 * Pour deux objets $$X,Y$$, un ensemble Hom$$_\mathcal{C}(X,Y)$$ des *morphismes de $$X$$ vers $$Y$$*,
 * Pour trois objets $$X,Y,Z$$, une application $$\mathrm{Hom}_\mathcal{C}(X,Y) \times \mathrm{Hom}_\mathcal{C}(Y,Z) \longrightarrow \mathrm{Hom}_\mathcal{C}(X,Z) $$, appelée *composition*, loi associative notée par $$(f,g) \mapsto g \circ f$$.
 
@@ -67,8 +67,28 @@ Par commodité, on notera souvent $$X \in \mathrm{Ob}(\mathcal{C})$$ et $$f: X \
 
 En lien avec la définition donnée au dernier paragraphe, notons qu'une catégorie $$\mathcal{C}$$ est appelé une $$\mathcal{U}$$-catégorie (ou localement petite) si $$\mathrm{Hom}_\mathcal{C}(X,Y)$$ est $$\mathcal{U}$$-petit pour n'importe quels objets $$X,Y$$. De la même façon, une $$\mathcal{U}$$-petite (ou juste petite) catégorie est une $$\mathcal{U}$$-catégorie telle que $$\mathrm{Ob}(\mathcal{C})$$ est $$\mathcal{U}$$-petite.
 
-La plupart du temps, on travaillera sur des catégories (localement) petite. En fait, dans la définition d'une catégorie, Ob et Hom ne sont pas *a priori* des ensembles, mais des collections dites "classes propres". Pour rester sur des choses plus ou moins intuitives et connues, considérer des petites catégories règle ce problème.
+La plupart du temps, on travaillera sur des catégories (localement) petite. En fait, dans la définition d'une catégorie, $$\mathrm{Ob}$$ et $$\mathrm{Hom}$$ ne sont pas *a priori* des ensembles, mais des collections dites "classes propres". Pour rester sur des choses plus ou moins intuitives et connues, considérer des petites catégories règle ce problème.
 
+Il n'est pas rare que, partant de morphismes $$X \longrightarrow Y$$, on souhaite en étudier d'autres de $$Y \longrightarrow X$$ (penser à la réciproque d'une application). Cette notion aura un rôle central et sera représentée par la catégorie *opposée*, ou *duale*, $$ \mathcal{C}^{op}$$ définie par
+
+\\[ \mathrm{Ob}(\mathcal{C}^{op}) = \mathrm{Ob}(\mathcal{C}), ~ ~ \mathrm{Hom}_{\mathcal{C}^{op}(X,Y) = \mathrm{Hom}_{\mathcal{C}}(Y,X) \\]
+
+C'est-à-dire qu'on garde les mêmes objets, mais qu'on "inverse" les flèches. On peut y définir une nouvelle composition. Pour $$f,g$$ bien définis, on a $$g \circ^{op} f = f \circ g$$. On pourra se permettre d'écrire simplement "$$\circ$$" si le contexte ne prête pas à confusion.
+
+Avant de passer à la suite, j'aimerai passer un peu de temps sur le concept d'isomorphisme. Quand on parle d'isomorphisme, il y a  en général deux définitions (équivalentes) possibles. Prenons l'exemples des isomorphismes d'ensemble $$f : E \mapsto F$$; c'est-à-dire, d'une façon moins pédante, des bijections.
+
+Une application $$f : E \mapsto F $$ est bijective si, pour tout $$y \in F$$, il existe un *unique* antécédent $$x \in E$$ tel que $$f(x) = y$$
+
+Cette définition est très pratique pour présenter les bijections aux jeunes étudiants : il suffit de leur faire dessiner deux patates, les remplir de points et relier les points d'une patate vers ceux de l'autre. Si chaque couple de point est relié par une et une seule flèche, c'est une bijection.
+
+Mais il faut se rappeller de l'intérêt de notre étude : on ne s'intéresse pas ici à proprement parler des éléments de tels ensembles, mais uniquement des flèches. On préférera alors cette autre définition:
+
+Une application $$f : E \mapsto F $$ est bijective si $$g \circ f = \mathrm{id}_E$$ et $$f \circ g = \mathrm{id}_F$$
+
+Ici, jamais on ne considère les éléments de $$E$$ et de $$F$$, il se peut même qu'il n'y en ait aucun (ce qui je l'avoue, ne serait pas très pratique mais soit.), mais seulement à la composition de flèches.
+
+**Définition.** Un morphisme $$X \mapsto Y$$ est un isomorphisme si il existe $$g : Y \mapsto X$$ telle que $$f \circ g = \mathrm{id}_Y, ~ g \circ f = \mathrm{id}_X$$.
+Un tel morphisme $$g$$ est appelé *inverse de $$f$$* et noté $$f^{-1}$$. S'il existe, on dit que $$X$$ et $$Y$$ sont isomorphes, ce qu'on note $$X \simeq Y$$.
 
 Références
 --
