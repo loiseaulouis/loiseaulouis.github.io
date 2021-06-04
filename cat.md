@@ -43,7 +43,7 @@ Il faut néanmoins faire attention à une chose : ainsi défini, un univers ne p
 
 Cela permet notamment aux univers de contenir un ensemble de cardinal infini.
 
-*Certains auteurs rajoutent à la définition que $$\mathbf{N}$$, ou remplacent l'hypothèse que $$\varnothing$$ \in \mathcal{U}$$ par celle-ci. En considérant l'axiome de Grothendieck, ça peut sembler redondant...après discussion avec des camarades et quelques recherches, il semblerait finalement qu'on rajoute cette hypothèse par confort plus que par rigueur logique. Je n'entrerai pas ici dans des les détails concernant l'axiome de l'infini, mais j'ai personnellement trouvé une réponse intéressante [ici](https://ncatlab.org/nlab/show/Grothendieck+universe#axiom_of_universes) et dans l'annexe de Bourbaki [3].*  
+*Certains auteurs rajoutent à la définition que $$\mathbf{N} \in \mathcal{U}$$, ou remplacent l'hypothèse que $$\varnothing$$ \in \mathcal{U}$$ par celle-ci. En considérant l'axiome de Grothendieck, ça peut sembler redondant...après discussion avec des camarades et quelques recherches, il semblerait finalement qu'on rajoute cette hypothèse par confort plus que par rigueur logique. Je n'entrerai pas ici dans des les détails concernant l'axiome de l'infini, mais j'ai personnellement trouvé une réponse intéressante [ici](https://ncatlab.org/nlab/show/Grothendieck+universe#axiom_of_universes) et dans l'annexe de Bourbaki [3].*  
 
 
 
