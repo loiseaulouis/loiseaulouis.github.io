@@ -65,7 +65,9 @@ Il est aussi naturel d'imposer l'existence d'un (unique) morphisme, dit *morphis
 
 Par commodité, on notera souvent $$X \in \mathrm{Ob}(\mathcal{C})$$ et $$f: X \mapsto Y$$ pour $$f \in \mathrm{Hom}_\mathcal{C}(X,Y)$$. Il est aussi courant en théorie des catégories d'appeller ces morphismes des "flèches", ce qui est pratique vu l'importance de la manipulation de *diagrammes*, vu comme des graphes reliant des objets par des flèches. Ainsi défini, un morphisme n'est autre qu'une flèche, de source $$X$$ et de but $$Y$$.
 
-En lien avec la définition donnée au dernier paragraphe, notons qu'une catégorie $$\mathcal{C}$$ est appelé une $$\mathcal{U}$$-catégorie si $$\mathrm{Hom}_\mathcal{C}(X,Y)$$ est $$\mathcal{U}$$-petit pour n'importe quels objets $$X,Y$$. De la même façon, une $$\mathcal{U}$$-petite catégorie est une $$\mathcal{U}$$-catégorie telle que $$\mathrm{Ob}(\mathcal{C})$$ est $$\mathcal{U}$$-petite.
+En lien avec la définition donnée au dernier paragraphe, notons qu'une catégorie $$\mathcal{C}$$ est appelé une $$\mathcal{U}$$-catégorie (ou localement petite) si $$\mathrm{Hom}_\mathcal{C}(X,Y)$$ est $$\mathcal{U}$$-petit pour n'importe quels objets $$X,Y$$. De la même façon, une $$\mathcal{U}$$-petite (ou juste petite) catégorie est une $$\mathcal{U}$$-catégorie telle que $$\mathrm{Ob}(\mathcal{C})$$ est $$\mathcal{U}$$-petite.
+
+La plupart du temps, on travaillera sur des catégories (localement) petite. En fait, dans la définition d'une catégorie, Ob et Hom ne sont pas *a priori* des ensembles, mais des collections dites "classes propres". Pour rester sur des choses plus ou moins intuitives et connues, considérer des petites catégories règle ce problème.
 
 
 Références
