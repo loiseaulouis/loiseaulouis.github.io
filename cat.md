@@ -73,7 +73,7 @@ La plupart du temps, on travaillera sur des catégories (localement) petite. En 
 Donnons déjà quelques exemples de catégories usuelles, que tout mathématicien peut (ou doit !) avoir rencontré dans sa vie.
 
 * $$\mathrm{Set}$$ est la catégorie des $$\mathcal{U}$$-ensembles et des applications.
-* $$\mathrm{Rel}$$ est la catégorie des *relations binaires*, dont les objets sont $$\mathrm{Ob(Rel)} = \mathrm{Ob(Set)}$$ et les morphismes $$ \mathrm{Hom}_{\mathrm{Rel}}(X,Y) = \mathcal{P \times Y}$$
+* $$\mathrm{Rel}$$ est la catégorie des *relations binaires*, dont les objets sont $$\mathrm{Ob(Rel)} = \mathrm{Ob(Set)}$$ et les morphismes $$ \mathrm{Hom}_{\mathrm{Rel}}(X,Y) = \mathcal{P}(X \times Y}$$
 * $$\mathrm{Top}$$ est la catégorie est *espaces topologiques*, dont les morphismes sont les applications continues.
 * $$\mathrm{Grp}$$ est la catégorie des *groupes* et ses morphismes sont évidemment les morphismes de groupes.
 
