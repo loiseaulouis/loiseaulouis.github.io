@@ -191,9 +191,9 @@ La preuve de ce résultat peut être qualifiée de triviale, dans le sens où on
 
 *Démonstration. Supposons que $$F(f)$$ est un épimorphisme et considérons deux flèches parallèles $$f,g: Y \rightrightarrows Z$$ telles que $$g \circ f = h \circ f$$. Alors, par préservation de la composition, $$F(g) \circ F(f) = F(h) \circ F(f)$$. On en déduit alors que $$F(g)=F(h)$$, et comme $$F$$ est fidèle, $$g=h$$.*
 
-J'ai jusqu'ici passé sous silence les notions de catégorie produit et de réunion disjointe de catégories, mais les foncteurs s'appliquent évidemment à ces cas. En particulier, un foncteur $$F: \mathcal{C} \times \mathcal{C} \mapsto \mathcal{C}^{\prime \prime} et appelé un *bifoncteur*. Détaillons.
+J'ai jusqu'ici passé sous silence les notions de catégorie produit et de réunion disjointe de catégories, mais les foncteurs s'appliquent évidemment à ces cas. En particulier, un foncteur $$F: \mathcal{C} \times \mathcal{C} \mapsto \mathcal{C}^{\prime \prime}$$ et appelé un *bifoncteur*. Détaillons.
 
-Pour $$X \in \mathcal{C}, ~ X^$\prime \in \mathcal{C}^\prime$$, les applications $$F(X, \cdot): \mathcal{C}^\prime \mapsto \mathcal{C}^{\prime \prime}$$ et  $$F(\cdot, X): \mathcal{C} \mapsto \mathcal{C}^{\prime \prime}$$ sont des foncteurs. De plus, pour tout morphisme $$f : X \mapsto Y$$ dans $$\mathcal{C}$$, $g : X^\prime \mapsto Y^\prime$$ de $$\mathcal{C}^\prime$$, le diagramme suivant commute:
+Pour $$X \in \mathcal{C}, ~ X^$\prime \in \mathcal{C}^\prime$$, les applications $$F(X, \cdot): \mathcal{C}^\prime \mapsto \mathcal{C}^{\prime \prime}$$ et  $$F(\cdot, X): \mathcal{C} \mapsto \mathcal{C}^{\prime \prime}$$ sont des foncteurs. De plus, pour tout morphisme $$f : X \mapsto Y$$ dans $$\mathcal{C}$$, $$g : X^\prime \mapsto Y^\prime$$ de $$\mathcal{C}^\prime$$, le diagramme suivant commute:
 
 $$
 \require{AMScd}
