@@ -221,6 +221,12 @@ F_1(X) @>{\theta_X}>> F_2(X)\\
 F_1(Y) @>{F(Y,g)}>> F_2(Y)
 \end{CD} $$
 
+L'application $$\theta$$ est appelé *transformation naturelle*. Les transformations naturelles sont un sujet passionnant et riche d'exemple, qui mériterait un article plus court, pédagogue, et illustré. Par chance, il semblerait que quelqu'un l'ait [déjà fait...](https://www.math3ma.com/blog/what-is-a-natural-transformation)
+
+Bien. Nous avons désormais des flèches entre nos catégories. On rajoute une idendité $$\mathrm{id}_\mathcal{C}$$ et on a tout le package. On serait tenté de travailler comme d'habitude, et *techniquement* on le pourrait, mais il semblerait qu'il y ait un hic: les isomorphismes de catégories - qui de fait, existent - sont bien trop restrictifs pour notre étude, on préférera  l'enrichir et parler d'*équivalence de catégorie*.
+
+**Définition.** Un foncteur $$F : \mathcal{C} \mapsto \mathcal{C}^\prime$$ est une *équivalence de catégories* si il existe $$G: \mathcal{C}^\prime \mapsto \mathcal{C}$$ et des isomorphismes de foncteurs $$\alpha : G \circ F \xlongrightarrow[\sim] \mathrm{id}_\mathcal{C}, \beta: F \circ G \xlongrightarrow[\sim] \mathrm{id}_{\mathcal{C}^prime}$$.
+Dans une telle situation, on écrit $$F: \mathcal{C} \xlongrightarrow[\sim] \mathcal{C}^\prime$$, et on dit que $$F$$ et $$G$$ sont quasi inverse l'un de l'autre.
 
 Références
 --
