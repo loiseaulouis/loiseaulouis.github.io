@@ -81,8 +81,8 @@ Donnons déjà quelques exemples de catégories usuelles, que tout mathématicie
 On peut bien sûr compléter cette liste à volonté en y ajoutant les anneaux, mais aussi les anneaux unitaires ou unitaires commutatifs, les groupes abéliens ou encore les espaces métriques et même les ensembles ordonnés (de morphisme les applications croissantes)...toute la boîte à outils mathématique.
 
 Fait remarquable, l'ensemble des morphismes d'une catégorie $$\mathcal{C}$$, $$\mathrm{Mor}(\mathcal{C})$$ (ie: tous les morphismes, en opposition à $$\mathrm{Hom}$$ des morphismes d'un certain $$X$$ vers un certain $$Y$$) peut lui-même être muni d'une structure de catégorie. Les morphismes de cette catégorie sont définies de façons pas trop déconnantes (promis) par $$ \mathrm{Hom}_{\mathrm{Mor}(\mathcal{C})}(f,g) = \{ u:X\mapsto X^\prime, ~ v : Y \mapsto Y^\prime, ~ g \circ u = v \circ f \} $$
-$\require{AMScd}$
-$$\begin{CD}
+$$\require{AMScd}
+\begin{CD}
 \mathbb{Z}/p^n\mathbb{Z} @>{\theta_{n+1,\alpha}}>> U_1/U_{n+1}\\
 @VVV @VVV\\
 \mathbb{Z}/p^{n-1}\mathbb{Z} @>{\theta_{n,\alpha}}>> U_1/U_n
