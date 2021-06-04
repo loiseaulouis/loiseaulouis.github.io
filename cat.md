@@ -113,7 +113,7 @@ La première de la liste s'impose dans l'étude de chaque structure mathématiqu
 * Une sous-catégorie $$\mathcal{C}^\prime \subset \mathcal{C}$$ est dite *pleine* si les morphismes sont les mêmes. $$\mathrm{Hom}_{\mathcal{C}}(X,Y) = \mathrm{Hom}_{\mathcal{C}^\prime}(X,Y)  $$
 * Une sous-catégorie pleine est dite *saturée*, si, dès que $$X \in \mathcal{C}$$ est isomorphe à un quelconque objet de $$\mathcal{C}^\prime$$, alors $$X$$ est déjà dans $$\mathcal{C}^\prime$$.
 * Une catégorie est *discrète* si les seuls morphismes sont les morphismes identité.
-* Une catégorie est dite non-vide sur sa classe d'objet est non-vide.
+* Une catégorie est dite non-vide si sa classe d'objet est non-vide.
 * Une catégorie est un *groupoïde* si tout morphisme est isomorphisme.
 * Une catégorie est *finie* si l'ensemble de tous ses morphismes est fini. (et donc *a fortiori*, celui de ses objets également)
 * Une catégorie est *connectée* si elle est non-vide et, pour tout $$X,Y \in \mathcal{C}$$, il existe une suite finite d'objets $$X_0,\dots,X_n$$, avec $$X_0 = X$$ et $$X_n = Y$$, tel qu'au moins l'un des ensembles $$ \mathrm{Hom}(X_j,X_{j+1})$$ ou $$\mathrm{Hom} (X_{j+1}, X_j) $$ est non-vide pour $$0 \leqslant j \leqslant n-1$$
