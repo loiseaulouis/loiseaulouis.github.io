@@ -31,7 +31,7 @@ Univers
 Partir de la seule théorie des ensembles pour définir une notion unificatrice des structures pose rapidement problème. La première catégorie qu'on voudrait définir serait celle des ensembles. Mais il est bien connu depuis Russell que se confonter à l'ensemble de tous les ensembles est peine perdue. C'est pourquoi nous allons plutôt nous baser sur la notion d'univers, plus spécifiquement d'univers de Grothendieck. L'idée principale est de pouvoir travailler sur un ensemble suffisament gros pour contenir tout ce qu'on attend de lui, sans rencontrer ce genre de paradoxe.
 
 **Définition** : Un univers $$\mathcal{U}$$ est un ensemble tel que:
-* $$\varnothing \in \mathcal{U}$$
+* \\(\varnothing \in \mathcal{U}\\)
 * Si $$u \in \mathcal{U}$$ et $$t \in u$$, alors $$t \in \mathcal{U}$$
 * Si $$I \in \mathcal{U}$$, et $$(u_i) \in \mathcal{U}$$ pour tout $$i \in I$$, alors $$\bigcup_{i \in I} U_i \in \mathcal{U} $$
 
