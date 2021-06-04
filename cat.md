@@ -71,8 +71,8 @@ La plupart du temps, on travaillera sur des catégories (localement) petite. En 
 
 Il n'est pas rare que, partant de morphismes $$X \longrightarrow Y$$, on souhaite en étudier d'autres de $$Y \longrightarrow X$$ (penser à la réciproque d'une application). Cette notion aura un rôle central et sera représentée par la catégorie *opposée*, ou *duale*, $$ \mathcal{C}^{op}$$ définie par
 
- \\[\mathrm{Ob} (\mathcal{C}^{op}) = \mathrm{Ob}(\mathcal{C})\\]
- \\[\mathrm{Hom}_{\mathcal{C}^{op}} (X,Y) = \mathrm{Hom}_{\mathcal{C}} (Y,X) \\]
+ * Les objets sont les mêmes: $$\mathrm{Ob} (\mathcal{C}^{op}) = \mathrm{Ob}(\mathcal{C})$$
+ * Les flèches sont inversées: $$\mathrm{Hom}_{\mathcal{C}^{op}} (X,Y) = \mathrm{Hom}_{\mathcal{C}} (Y,X) $$
 
 Pour des objets $$X$$ et morphismes $$f$$ dans $$\mathcal{C}$$, on pourra noter $$X^{op}$$ ou $$f^{op}$$ son image dans $$\mathcal{C}^{op}$$.
 
@@ -90,6 +90,8 @@ Ici, jamais on ne considère les éléments de $$E$$ et de $$F$$, il se peut mê
 
 **Définition.** Un morphisme $$X \mapsto Y$$ est un isomorphisme si il existe $$g : Y \mapsto X$$ telle que $$f \circ g = \mathrm{id}_Y, ~ g \circ f = \mathrm{id}_X$$.
 Un tel morphisme $$g$$ est appelé *inverse de $$f$$* et noté $$f^{-1}$$. S'il existe, on dit que $$X$$ et $$Y$$ sont isomorphes, ce qu'on note $$X \simeq Y$$.
+
+Duale à celle des isomorphismes, présentons maintenant deux autres classe de morphismes, analogues - en un sens - aux notions d'injectivité et de surjectivité.
 
 Références
 --
