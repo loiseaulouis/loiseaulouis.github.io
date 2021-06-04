@@ -82,6 +82,7 @@ On peut bien sûr compléter cette liste à volonté en y ajoutant les anneaux, 
 
 Fait remarquable, l'ensemble des morphismes d'une catégorie $$\mathcal{C}$$, $$\mathrm{Mor}(\mathcal{C})$$ (ie: tous les morphismes, en opposition à $$\mathrm{Hom}$$ des morphismes d'un certain $$X$$ vers un certain $$Y$$) peut lui-même être muni d'une structure de catégorie. Les morphismes de cette catégorie sont définies de façons pas trop déconnantes (promis) par $$ \mathrm{Hom}_{\mathrm{Mor}(\mathcal{C})}(f,g) = \{ u:X\mapsto X^\prime, ~ v : Y \mapsto Y^\prime, ~ g \circ u = v \circ f \} $$
 
+Ce morphisme peut être visualisé par le diagramme (enfin !) commutatif suivant.
 
 $$
 \require{AMScd}
