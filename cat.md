@@ -234,7 +234,7 @@ Présentons maintenant deux résultats, découlant tout deux du lemme de Zorn (q
 On note $$i^\prime$$ le plongement naturel de $$\mathcal{C}_0^\prime \mapsto \mathcal{C}_0$$.
 Alors il existe un foncteur $$F_0 : \mathcal{C} \mapsto \mathcal{C}_0^\prime$$ et une transformation naturelle $$\theta_0: F \mapsto i^\prime \circ F_0$$. De plus, $$F_0$$ est unique à (un unique) isomorphisme près.
 
-*Démonstration: Par le lemme de Zorn, pour chaque $$X$$, on peut choisir un $$Y$$ dans \mathcal{C}_0^\prime$$, un isomorphisme $$\varphi_X : Y \mapsto F(X)$$ et poser $$F_0(X) = Y$$. Si $$f : X \mapsto X^\prime$$ est un morphisme dans $$\mathcal{C}$$, on définit $$F_0(f) : F_0(X) \mapsto F_0(X^\prime)$$ comme étant la composition de $$F_0(X) \longrightarrow F(X) \longrightarrow F(X^\prime) \longleftarrow F_0(X^\prime)$$. *
+*Démonstration: Par le lemme de Zorn, pour chaque $$X$$, on peut choisir un $$Y$$ dans $$\mathcal{C}_0^\prime$$, un isomorphisme $$\varphi_X : Y \mapsto F(X)$$ et poser $$F_0(X) = Y$$. Si $$f : X \mapsto X^\prime$$ est un morphisme dans $$\mathcal{C}$$, on définit $$F_0(f) : F_0(X) \mapsto F_0(X^\prime)$$ comme étant la composition de $$F_0(X) \longrightarrow F(X) \longrightarrow F(X^\prime) \longleftarrow F_0(X^\prime)$$. *
 
 **Second lemme.** Soit $$\mathcal{C}$$ une catégorie. Alors il existe une sous-catégorie $$\mathcal(C)_0$$ tel que le plongement naturel $$i$$ soit une équivalence de catégories.
 De plus, si deux objets de $$\mathcal{C}_0$$ sont isomorphes, alors ils sont égaux.
