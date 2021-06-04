@@ -72,7 +72,7 @@ La plupart du temps, on travaillera sur des catégories (localement) petite. En 
 Il n'est pas rare que, partant de morphismes $$X \longrightarrow Y$$, on souhaite en étudier d'autres de $$Y \longrightarrow X$$ (penser à la réciproque d'une application). Cette notion aura un rôle central et sera représentée par la catégorie *opposée*, ou *duale*, $$ \mathcal{C}^{op}$$ définie par
 
 
-\\[ \mathrm{Ob}(\mathcal{C}^{op}) = \mathrm{Ob}(\mathcal{C}), \mathrm{Hom}_{\mathcal{C}^{op}}(X,Y) = \mathrm{Hom}_{\mathcal{C}}(Y,X)} \\]
+$$ \mathrm{Ob}(\mathcal{C}^{op}) = \mathrm{Ob}(\mathcal{C}), \mathrm{Hom}_{\mathcal{C}^{op}}(X,Y) = \mathrm{Hom}_{\mathcal{C}}(Y,X)} $$
 C'est-à-dire qu'on garde les mêmes objets, mais qu'on "inverse" les flèches. On peut y définir une nouvelle composition. Pour $$f,g$$ bien définis, on a $$g \circ^{op} f = f \circ g$$. On pourra se permettre d'écrire simplement "$$\circ$$" si le contexte ne prête pas à confusion.
 
 Avant de passer à la suite, j'aimerai passer un peu de temps sur le concept d'isomorphisme. Quand on parle d'isomorphisme, il y a  en général deux définitions (équivalentes) possibles. Prenons l'exemples des isomorphismes d'ensemble $$f : E \mapsto F$$; c'est-à-dire, d'une façon moins pédante, des bijections.
