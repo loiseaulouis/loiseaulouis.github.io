@@ -9,7 +9,7 @@ Voyant ce concept intervenir de près ou de loin dans à peu près toutes les di
 
 Ce billet sera l'occasion pour moi de réorganiser mentalement ces nouvelles idées, et de faire découvrir ce nouveau monde à d'autres néophytes.
 
-Le plan sera calqué sur le premier chapitre du merveilleux livre de M. Kashiwara et P. Schapira [1]. Il est donc fortement probable que cet article soit très long, mais le but ici n'est pas tant de vulgariser que de présenter le vocabulaire de base que tout aspirant catégoricien serait mené à connaître. J'espère néanmoins réussir à reformuler les concepts de façon claire et si possible, donner envie de continuer l'étude par soi-même.
+Le plan sera calqué sur le premier chapitre du merveilleux livre de M. Kashiwara et P. Schapira [1]. Il est donc fortement probable que cet article soit très long, mais le but ici n'est pas tant de vulgariser que de présenter le vocabulaire de base que tout aspirant catégoricien serait mené à connaître. Le format sera donc plus proche de notes de lectures que d'un condensat de résultats ou idées générales; j'espère néanmoins réussir à reformuler les concepts de façon claire et si possible, donner envie de continuer l'étude par soi-même.
 
 L'étude des catégories ne demande *a priori* aucun prérequis. Ou plutôt, elle en demande autant que de lire un Bourbaki; dans le sens où un lycéen a les connaissances nécessaires pour comprendre les définitions basiques, mais que sans un solide passif en mathématiques, l'étude - en plus d'avoir un intérêt limité - est extrêmement ardue.
 
@@ -63,6 +63,8 @@ Comme présenté dans l'introduction, une catégorie est essentiellement la donn
 * Pour trois objets $$X,Y,Z$$, une application $$\mathrm{Hom}_\mathcal{C}(X,Y) \times \mathrm{Hom}_\mathcal{C}(Y,Z) \longrightarrow \mathrm{Hom}_\mathcal{C}(X,Z) $$, appelée *composition*, loi associative notée par $$(f,g) \mapsto g \circ f$$.
 
 Il est aussi naturel d'imposer l'existence d'un (unique) morphisme, dit *morphisme identité*, définit pour chaque objet $$X$$ par $$\mathrm{id}_X \in \mathrm{Hom}_\mathcal{C}(X,X)$$ tel que $$f\circ \mathrm{id}_X = f$$ pour tout morphisme $$f$$ de $$X$$ vers $$Y$$; et symétriquement $$\mathrm{id}_X \circ g = g$$ pour tout morphisme $$g$$ de $$Y$$ dans $$X$$.
+
+*On peut à ce stade définir les notions d'objet initial, terminal et nul, mais malgré l'intérêt de la chose, je laisse aux soins du lecteur de regarder dans [1]*
 
 Par commodité, on notera souvent $$X \in \mathrm{Ob}(\mathcal{C})$$ et $$f: X \mapsto Y$$ pour $$f \in \mathrm{Hom}_\mathcal{C}(X,Y)$$. Il est aussi courant en théorie des catégories d'appeller ces morphismes des "flèches", ce qui est pratique vu l'importance de la manipulation de *diagrammes*, vu comme des graphes reliant des objets par des flèches. Ainsi défini, un morphisme n'est autre qu'une flèche, de source $$X$$ et de but $$Y$$.
 
@@ -150,6 +152,20 @@ Revenons maintenant sur nos exemples.
 * Si $$X$$ est un ensemble et $$x_0 \in X$$, le couple $$(X,x)$$ est un ensemblé pointé. On appelle $$\mathrm{pSet}$$ la catégorie de ces ensembles et on le munit d'une structure en définissant les morphismes $$f: (X,x) \mapsto (Y,y)$$ par $$f(x)=y$$
 
 *Remarque: Je ne connaissais pas les ensembles pointés jusqu'ici. J'ai trouvé un exemple à première vue assez innatendu: le premier groupe de cohomologie $$H^1(G,A)$$ est un ensemble pointé. Mais c'est tout de suite moins drôle quand on sait que tout groupe est pointé en son neutre [4]*
+
+Il est maintenant l'heure de faire un pas de plus dans l'abstraction. Nous avons jusqu'ici donner les grandes idées pour définir une catégorie. Composée d'objets de flèches, nous avons remarqué que les flèches formaient elles aussi une catégorie. Pour aller plus loin, nous allons maintenant voir qu'il est possible de relier les catégories entres elles, c'est précisement la notion de foncteur.
+
+Dans un cursus scolaire "normal", il est assez rare de voir des applications qui partent d'une structure dans une autre, il peut donc être difficile de s'imaginer directement un exemple. On pourrait bien penser aux structures algébriques de base, et imaginer par exemple un morphisme (par un grotesque abus de language) d'un anneau vers un corps, mais je n'en connais personnellement aucun qui pourrait être intéressant. En revanche, il y a un exemple simple et assez courant qui est le *foncteur d'oubli*. Le foncteur d'oubli, fait "oublier" à sa source sa structure. Partons par exemple d'un espace topologique. C'est la donnée d'un ensemble, disons $$T$$, et d'une topologie: c'est elle qui donne sa structure à $$T$$. Le foncteur d'oublie va alors renvoyer uniquement $$T$$, l'ensemble sous-jacent de l'espace topologique. De la même façon, on peut considérer un groupe $$(G, \dot)$$ et ne renvoyer que $$G$$. Ce sont là deux foncteurs des catégories $$\mathrm{Top}$$ et $$\mathrm{Grp}$$ vers $$\mathrm{Set}$$. Ce sont là des exemples où les objets perdent "toute" leur structure, mais on peut aussi partir d'un groupe abélien $$G$$, *ie* un objet de $$\mathrm{Ab}$$ et le plonger dans $$\mathrm{Grp}$$, dans ce cas $$G$$ "oublie juste" qu'il est abélien.
+
+**Définition.**
+Soit $$\mathcal{C}, \mathcal{C}^\prime$$ deux catégories. Un *foncteur* $$F : \mathcal{C} \mapsto \mathcal{C}^\prime$$ est la donnée d'une application $$F: \mathrm{Ob} (\mathcal{C}) \mapsto \mathrm{Ob} (\mathcal(C)^\prime)$$ et $$F: \mathrm{Hom}_{\mathcal{C}}(X,Y) \mapsto \mathrm{Hom}_{\mathcal{C}^\prime}(F(X),F(Y))$$ pour tout $$X,Y \in \mathcal{C}$$, qui préserve l'identité et la composition.
+Plus clairement, un foncteur est une application qui envoie chaque objet $$X$$ d'une catégorie $$\mathcal{C}$$ vers un objet $$F(X)$$ d'une catégorie $$\mathcal{C}^\prime$$, et chaque morphisme $$f : X \mapsto Y$$ vers un morphisme $$F(f):F(X) \mapsto F(Y)$$.
+Sous de bonnes hypothèses, la composition de deux foncteurs $$G \circ F$$ est donnée par $$(G\circ F)(X) = G(F(X))$$ et $$(G\circ F)(f) = G(F(f))$$.
+
+On appelle *foncteur contravariant* de $$\mathcal{C}$$ vers $$\mathcal{C}^\prime$$ un foncteur de $$\mathcal{C}^{op}$$ vers $$\mathcal{C}$$. C'est-à-dire que $$F(g \circ f) = F(f) \circ F(g)$$.
+
+
+Il pourra être utile par la suite de noté le foncteur contravariant "trivial" $$\mathrm{op}: \mathcal{C} \mapsto \mathcal{C}^{op}$$ défini par l'identité. Notons que tout foncteur $$F:\mathcal{C} \mapsto \mathcal{C}^\prime$$ induit naturellement un foncteur dans le dual $$F^{op} : \mathcal{C}^{op} \mapsto \mathcal{C}^{\prime op}$$
 
 
 
