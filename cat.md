@@ -74,6 +74,8 @@ Il n'est pas rare que, partant de morphismes $$X \longrightarrow Y$$, on souhait
  \\[\mathrm{Ob} (\mathcal{C}^{op}) = \mathrm{Ob}(\mathcal{C})\\]
  \\[\mathrm{Hom}_{\mathcal{C}^{op}} (X,Y) = \mathrm{Hom}_{\mathcal{C}} (Y,X) \\]
 
+Pour des objets $$X$$ et morphismes $$f$$ dans $$\mathcal{C}$$, on pourra noter $$X^{op}$$ ou $$f^{op}$$ son image dans $$\mathcal{C}^{op}$$.
+
 Avant de passer à la suite, j'aimerai passer un peu de temps sur le concept d'isomorphisme. Quand on parle d'isomorphisme, il y a  en général deux définitions (équivalentes) possibles. Prenons l'exemples des isomorphismes d'ensemble $$f : E \mapsto F$$; c'est-à-dire, d'une façon moins pédante, des bijections.
 
 Une application $$f : E \mapsto F $$ est bijective si, pour tout $$y \in F$$, il existe un *unique* antécédent $$x \in E$$ tel que $$f(x) = y$$
