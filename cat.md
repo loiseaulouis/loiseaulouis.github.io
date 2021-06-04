@@ -1,6 +1,8 @@
 ---
 layout: post
 ---
+Introduction aux catégories
+--
 
 Voyant ce concept intervenir de près ou de loin dans à peu près toutes les discussions de mathématiciens - algébristes - auxquelles j'ai pu assister, j'ai profité de ce début de vacances pour enfin l'étudier d'un peu plus près : la théorie des catégories.
 
@@ -26,7 +28,7 @@ En mathématiques, il y a une façon très commode de conceptualiser les relatio
 Nous allons donc découuvrir ce qu'est formellemment une catégorie, comment ses objets sont reliés entre eux et même comment les catégories sont liées entre-elles.
 
 Univers
---
+==
 
 Partir de la seule théorie des ensembles pour définir une notion unificatrice des structures pose rapidement problème. La première catégorie qu'on voudrait définir serait celle des ensembles. Mais il est bien connu depuis Russell que se confonter à l'ensemble de tous les ensembles est peine perdue. C'est pourquoi nous allons plutôt nous baser sur la notion d'univers, plus spécifiquement d'univers de Grothendieck. L'idée principale est de pouvoir travailler sur un ensemble suffisament gros pour contenir tout ce qu'on attend de lui, sans rencontrer ce genre de paradoxe.
 
