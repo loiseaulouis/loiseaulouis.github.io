@@ -37,7 +37,7 @@ Partir de la seule théorie des ensembles pour définir une notion unificatrice 
 
 On déduit sans peine de cette définition la stabilité par inclusion, produit, etc.
 
-Il faut néanmoins faire attention à une chose : ainsi défini, un univers ne peut être défini que par un enchevêtrement de symboles du type $$\varnothing, \\{ \varnothing \\}, \\{ \\{ \varnothing \\}, \varnothing \\}. Pour résoudre ce problème, Grothendieck a proposé de rajouter un axiome à la théorie ZFC:
+Il faut néanmoins faire attention à une chose : ainsi défini, un univers ne peut être défini que par un enchevêtrement de symboles du type $$\varnothing, \\{ \varnothing \\}, \\{ \\{ \varnothing \\}, \varnothing \\}$$. Pour résoudre ce problème, Grothendieck a proposé de rajouter un axiome à la théorie ZFC:
 
 \\[ \text{Pour tout ensemble } x \text{ il existe un univers } \mathcal{U} \text{ tel que } x \in \mathcal{U} \\]
 
