@@ -6,7 +6,7 @@ layout: post
 
 Voyant ce concept intervenir de près ou de loin dans à peu près toutes les discussions de mathématiciens - algébristes - auxquelles j'ai pu assister, j'ai profité de ce début de vacances pour enfin l'étudier d'un peu plus près : la théorie des catégories.
 
-Ce billet sera l'occasion pour moi de mettre à plat ces nouvelles idées, et de faire découvrir ce nouveau monde à d'autres néophytes.
+Ce billet sera l'occasion pour moi de réorganiser mentalement ces nouvelles idées, et de faire découvrir ce nouveau monde à d'autres néophytes.
 
 Le plan sera calqué sur le premier chapitre du merveilleux livre de M. Kashiwara et P. Schapira [1]. Il est donc fortement probable que cet article soit très long, mais le but ici n'est pas tant de vulgariser que de présenter le vocabulaire de base que tout aspirant catégoricien serait mené à connaître. J'espère néanmoins réussir à reformuler les concepts de façon claire et si possible, donner envie de continuer l'étude par soi-même.
 
@@ -32,7 +32,7 @@ Univers
 
 Partir de la seule théorie des ensembles pour définir une notion unificatrice des structures pose rapidement problème. La première catégorie qu'on voudrait définir serait celle des ensembles. Mais il est bien connu depuis Russell que se confonter à l'ensemble de tous les ensembles est peine perdue. C'est pourquoi nous allons plutôt nous baser sur la notion d'univers, plus spécifiquement d'univers de Grothendieck. L'idée principale est de pouvoir travailler sur un ensemble suffisament gros pour contenir tout ce qu'on attend de lui, sans rencontrer ce genre de paradoxe.
 
-**Définition** : Un univers $$\mathcal{U}$$ est un ensemble tel que:
+**Définition.** Un univers $$\mathcal{U}$$ est un ensemble tel que:
 * \\(\varnothing \in \mathcal{U}\\)
 * Si $$u \in \mathcal{U}$$ et $$t \in u$$, alors $$t \in \mathcal{U}$$
 * Si $$I \in \mathcal{U}$$, et $$(u_i) \in \mathcal{U}$$ pour tout $$i \in I$$, alors $$\bigcup_{i \in I} U_i \in \mathcal{U} $$
@@ -47,7 +47,19 @@ Cela permet notamment aux univers de contenir un ensemble de cardinal infini.
 
 *Certains auteurs rajoutent à la définition que $$\mathbf{N} \in \mathcal{U}$$, ou remplacent l'hypothèse que $$\varnothing \in \mathcal{U}$$ par celle-ci. En considérant l'axiome de Grothendieck, ça peut sembler redondant...après discussion avec des camarades et quelques recherches, il semblerait finalement qu'on rajoute cette hypothèse par confort plus que par rigueur logique. Je n'entrerai pas ici dans des les détails concernant l'axiome de l'infini, mais j'ai personnellement trouvé une réponse intéressante [ici](https://ncatlab.org/nlab/show/Grothendieck+universe#axiom_of_universes) et dans l'annexe de Bourbaki [3].*  
 
+Pour la suite, si $$\mathcal{U}$$ est univers, on dira qu'un ensemble est un $$\mathcal{U}$$-ensemble s'il appartient à $$\mathcal{U}$$, ou bien qu'il est $$\mathcal{U}$$-petit s'il est isomorphe à un ensemble appartenant à $$\mathcal{U}$$.
 
+Bien, maintenant posé ce petit cadre, il est temps d'enfin entrer dans le sujet.
+
+Catégories, foncteurs
+==
+
+Comme présenté dans l'introduction, une catégorie est essentiellement la donné d'un ensemble, et de la structure qu'on souhaite lui donner, caractérisée par ses morphismes. Formellement, on a donc:
+
+**Définition.** - Une catégorie $$\mathcal{C}$$ est la donnée de
+* Un ensemble Ob(\mathcal{C}), des *objets* de $$\mathcal{C}$$
+* Pour deux objets $$X,Y$$, un ensemble Hom$$_\mathcal{C}(X,Y)$$ des morphismes de $$X$$ vers $$Y$$,
+* Pour trois objets $$X,Y,Z$$, une application $$\mathrm{Hom}_\mathcal{C}(X,Y) \times \mathrm{Hom}_\mathcal{C}(Y,Z) \longrightarrow \mathrm{Hom}_\mathcal{C}(X;Z)  $$
 
 
 Références
