@@ -76,6 +76,7 @@ Donnons déjà quelques exemples de catégories usuelles, que tout mathématicie
 * $$\mathrm{Rel}$$ est la catégorie des *relations binaires*, dont les objets sont $$\mathrm{Ob(Rel)} = \mathrm{Ob(Set)}$$ et les morphismes $$ \mathrm{Hom}_{\mathrm{Rel}}(X,Y) = \mathcal{P}(X \times Y}$$
 * $$\mathrm{Top}$$ est la catégorie est *espaces topologiques*, dont les morphismes sont les applications continues.
 * $$\mathrm{Grp}$$ est la catégorie des *groupes* et ses morphismes sont évidemment les morphismes de groupes.
+* Pour $$K$$ un corps, $$\mathrm{Vect}_K$$ la catégorie des espaces vectoriels et des applications linéaires.
 
 On peut bien sûr compléter cette liste à volonté en y ajoutant les anneaux, mais aussi les anneaux unitaires ou unitaires commutatifs, les groupes abéliens ou encore les espaces métriques et même les ensembles ordonnés (de morphisme les applications croissantes)...toute la boîte à outils mathématique.
 
@@ -120,14 +121,19 @@ La première de la liste s'impose dans l'étude de chaque structure mathématiqu
 **Définitions.**
 * Une catégorie $$\mathcal(C)^\prime$$ est une *sous-catégorie* de $$\mathcal{C}$$, $$\mathcal{C}^\prime \subset \mathcal{C}$$ si les objets de $$\mathcal{C}^\prime$$ sont déjà des objets de $$\mathcal{C}$$, de même pour les morphismes, que la composition dans $$\mathcal{C}^\prime$$ est induite par celle de $$\mathcal{C}$$ et que le morphisme identité est le même.
 * Une sous-catégorie $$\mathcal{C}^\prime \subset \mathcal{C}$$ est dite *pleine* si les morphismes sont les mêmes. $$\mathrm{Hom}_{\mathcal{C}}(X,Y) = \mathrm{Hom}_{\mathcal{C}^\prime}(X,Y)  $$
-* Une sous-catégorie pleine est dite *saturée*, si, dès que $$X \in \mathcal{C}$$ est isomorphe à un quelconque objet de $$\mathcal{C}^\prime$$, alors $$X$$ est déjà dans $$\mathcal{C}^\prime$$.
 * Une catégorie est *discrète* si les seuls morphismes sont les morphismes identité.
 * Une catégorie est dite non-vide si sa classe d'objet est non-vide.
 * Une catégorie est un *groupoïde* si tout morphisme est isomorphisme.
 * Une catégorie est *finie* si l'ensemble de tous ses morphismes est fini. (et donc *a fortiori*, celui de ses objets également)
 * Une catégorie est *connectée* si elle est non-vide et, pour tout $$X,Y \in \mathcal{C}$$, il existe une suite finite d'objets $$X_0,\dots,X_n$$, avec $$X_0 = X$$ et $$X_n = Y$$, tel qu'au moins l'un des ensembles $$ \mathrm{Hom}(X_j,X_{j+1})$$ ou $$\mathrm{Hom} (X_{j+1}, X_j) $$ est non-vide pour $$0 \leqslant j \leqslant n-1$$
 
+*Mea culpa, j'aurai pu donner la définition de sous-catégorie saturée, mais je n'ai pour ainsi dire trouvé aucun exemple pour l'illustrer. Quant aux sous-catégories connectées, je l'ai bien vu une ou deux fois, mais j'ai peur que ces notions me soient encore trop obscures.*
+
 Revenons maintenant sur nos exemples.
+
+* $$\mathrm{Set} \subset \mathrm{Rel}$$, mais elle n'est pas pleine.
+* La catégorie des groupes abéliens $$\mathrm{Ab}$$ est une sous-catégorie pleine de la catégorie groupes, elle-même sous-catégorie pleine des monoïdes. $$\mathrm{Mon}$$.
+* Si $$A$$ est un anneau, on peut définir $$\matrm{Mod}(A)$$ la catégorie des $$A$$-modules. Ainsi la sous-catégorie des $$A$$-modules de type fini en est une sous-catégorie pleine. 
 
 
 Références
