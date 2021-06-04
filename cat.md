@@ -1,6 +1,7 @@
 ---
 layout: post
 ---
+
 Introduction aux catégories
 --
 
