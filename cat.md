@@ -58,8 +58,14 @@ Comme présenté dans l'introduction, une catégorie est essentiellement la donn
 
 **Définition.** - Une catégorie $$\mathcal{C}$$ est la donnée de
 * Un ensemble Ob(\mathcal{C}), des *objets* de $$\mathcal{C}$$
-* Pour deux objets $$X,Y$$, un ensemble Hom$$_\mathcal{C}(X,Y)$$ des morphismes de $$X$$ vers $$Y$$,
-* Pour trois objets $$X,Y,Z$$, une application $$\mathrm{Hom}_\mathcal{C}(X,Y) \times \mathrm{Hom}_\mathcal{C}(Y,Z) \longrightarrow \mathrm{Hom}_\mathcal{C}(X;Z)  $$
+* Pour deux objets $$X,Y$$, un ensemble Hom$$_\mathcal{C}(X,Y)$$ des *morphismes de $$X$$ vers $$Y$$*,
+* Pour trois objets $$X,Y,Z$$, une application $$\mathrm{Hom}_\mathcal{C}(X,Y) \times \mathrm{Hom}_\mathcal{C}(Y,Z) \longrightarrow \mathrm{Hom}_\mathcal{C}(X,Z) $$, appelée *composition*, loi associative notée par $$(f,g) \mapsto g \circ f$$.
+
+Il est aussi naturel d'imposer l'existence d'un (unique) morphisme, dit *morphisme identité*, définit pour chaque objet $$X$$ par $$\mathrm{id}_X \in \mathrm{Hom}_\mathcal{C}(X,X)$$ tel que $$f\circ \mathrm{id}_X = f$$ pour tout morphisme $$f$$ de $$X$$ vers $$Y$$; et symétriquement $$\mathrm{id}_X \circ g = g$$ pour tout morphisme $$g$$ de $$Y$$ dans $$X$$.
+
+Par commodité, on notera souvent $$X \in \mathrm{Ob}(\mathcal{C})$$ et $$f: X \mapsto Y$$ pour $$f \in \mathrm{Hom}_\mathcal{C}(X,Y)$$. Il est aussi courant en théorie des catégories d'appeller ces morphismes des "flèches", ce qui est pratique vu l'importance de la manipulation de *diagrammes*, vu comme des graphes reliant des objets par des flèches. Ainsi défini, un morphisme n'est autre qu'une flèche, de source $$X$$ et de but $$Y$$.
+
+En lien avec la définition donnée au dernier paragraphe, notons qu'une catégorie $$\mathcal{C}$$ est appelé une $$\mathcal{U}$$-catégorie si $$\mathrm{Hom}_\mathcal{C}(X,Y)$$ est $$\mathcal{U}$$-petit pour n'importe quels objets $$X,Y$$. De la même façon, une $$\mathcal{U}$$-petite catégorie est une $$\mathcal{U}$$-catégorie telle que $$\mathrm{Ob}(\mathcal{C})$$ est $$\mathcal{U}$$-petite.
 
 
 Références
