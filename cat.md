@@ -133,7 +133,7 @@ Revenons maintenant sur nos exemples.
 
 * $$\mathrm{Set} \subset \mathrm{Rel}$$, mais elle n'est pas pleine.
 * La catégorie des groupes abéliens $$\mathrm{Ab}$$ est une sous-catégorie pleine de la catégorie groupes, elle-même sous-catégorie pleine des monoïdes. $$\mathrm{Mon}$$.
-* Si $$A$$ est un anneau, on peut définir $$\matrm{Mod}(A)$$ la catégorie des $$A$$-modules. Ainsi la sous-catégorie des $$A$$-modules de type fini en est une sous-catégorie pleine. 
+* Si $$A$$ est un anneau, on peut définir $$\mathrm{Mod}(A)$$ la catégorie des $$A$$-modules. Ainsi la sous-catégorie des $$A$$-modules de type fini en est une sous-catégorie pleine. 
 
 
 Références
