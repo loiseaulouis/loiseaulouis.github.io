@@ -211,6 +211,16 @@ Morphismes de foncteur, lemme de Yoneda
 Je concluerai cet article par un dernier saut abstractif. Celui-ci consiste en une rapide présentation des morphismes de foncteurs (car après tout, des morphismes entre des images de morphismes entre des catégories, rien de plus simple ?) puis par l'énoncé du lemme de Yoneda. En dehors de l'aspect conceptuel, cette partie aura surtout pour intérêt de présenter des résultats et, a extenso, des démonstrations utilisant les outils présentés jusqu'ici.
 
 **Définition.** Soit $$\mathcal{C}, \mathcal{C}^\prime$$ deux catégories et $$F_1,F_2$$ deux foncteurs de $$\mathcal{C}$$ vers $$\mathcal{C}^\prime$$
+Un *morphisme de foncteurs* $$\theta: F_1 \mapsto F_2$$ consiste en un morphisme $$\theta_X : F_1(X) \mapsto F_2(X)$$ pour tout $$x$$, tel que, pour tout morphisme $$f: X \mapsto Y$$, le diagramme commute:
+
+$$
+\require{AMScd}
+\begin{CD}
+F_1(X) @>{\theta_X}>> F_2(X)\\
+@V{F_1(f)}VV @VV{F_2(f)}V\\
+F_1(Y) @>{F(Y,g)}>> F_2(Y)
+\end{CD} $$
+
 
 Références
 --
