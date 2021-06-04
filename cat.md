@@ -70,6 +70,15 @@ En lien avec la définition donnée au dernier paragraphe, notons qu'une catégo
 
 La plupart du temps, on travaillera sur des catégories (localement) petite. En fait, dans la définition d'une catégorie, $$\mathrm{Ob}$$ et $$\mathrm{Hom}$$ ne sont pas *a priori* des ensembles, mais des collections dites "classes propres". Pour rester sur des choses plus ou moins intuitives et connues, considérer des petites catégories règle ce problème.
 
+Donnons déjà quelques exemples de catégories usuelles, que tout mathématicien peut (ou doit !) avoir rencontré dans sa vie.
+
+* $$\mathrm{Set}$$ est la catégorie des $$\mathcal{U}$$-ensembles et des applications.
+* $$\mathrm{Rel}$$ est la catégorie des *relations binaires*, dont les objets sont $$\mathrm{Ob(Rel)} = \mathrm{Ob(Set)}$$ et les morphismes $$ \mathrm{Hom}_{\mathrm{Rel}}(X,Y) = \mathcal{P \times Y}$$
+* $$\mathrm{Top}$$ est la catégorie est *espaces topologiques*, dont les morphismes sont les applications continues.
+* $$\mathrm{Grp}$$ est la catégorie des *groupes* et ses morphismes sont évidemment les morphismes de groupes.
+
+On peut bien sûr compléter cette liste à volonté en y ajoutant les anneaux, mais aussi les anneaux unitaires ou unitaires commutatifs, les groupes abéliens ou encore les espaces métriques et même les ensembles ordonnés (de morphisme les applications croissantes)...toute la boîte à outils mathématique.
+
 Il n'est pas rare que, partant de morphismes $$X \longrightarrow Y$$, on souhaite en étudier d'autres de $$Y \longrightarrow X$$ (penser à la réciproque d'une application). Cette notion aura un rôle central et sera représentée par la catégorie *opposée*, ou *duale*, $$ \mathcal{C}^{op}$$ définie par
 
  * Les objets sont les mêmes: $$\mathrm{Ob} (\mathcal{C}^{op}) = \mathrm{Ob}(\mathcal{C})$$
@@ -104,7 +113,7 @@ Il se trouve que cet enseignant est un géomètre algébristre, et que sa notati
 
 En particulier, en théorie des ensembles, les mono/épimorphismes sont exactements les fonctions inj/surjectives.
 
-Nous allons revenir à nos exemples de catégories pour enrichir notre connaissance à leur sujet. Pour celà, partons pour une nouvelle vague de vocabulaire. C'est un peu long, mais c'est le prix à payer pour donner des exemples enrichis.
+Nous allons revenir à nos exemples de catégories pour développer notre connaissance à leur sujet. Pour celà, partons pour une nouvelle vague de vocabulaire. C'est un peu long, mais c'est le prix à payer pour donner des exemples enrichis.
 
 La première de la liste s'impose dans l'étude de chaque structure mathématique, et est donc assez naturelle, les suivantes donnent un peu de contexte et permettront des études plus détaillées.
 
@@ -117,6 +126,10 @@ La première de la liste s'impose dans l'étude de chaque structure mathématiqu
 * Une catégorie est un *groupoïde* si tout morphisme est isomorphisme.
 * Une catégorie est *finie* si l'ensemble de tous ses morphismes est fini. (et donc *a fortiori*, celui de ses objets également)
 * Une catégorie est *connectée* si elle est non-vide et, pour tout $$X,Y \in \mathcal{C}$$, il existe une suite finite d'objets $$X_0,\dots,X_n$$, avec $$X_0 = X$$ et $$X_n = Y$$, tel qu'au moins l'un des ensembles $$ \mathrm{Hom}(X_j,X_{j+1})$$ ou $$\mathrm{Hom} (X_{j+1}, X_j) $$ est non-vide pour $$0 \leqslant j \leqslant n-1$$
+
+Revenons maintenant sur nos exemples.
+
+
 Références
 --
 [1] cat and sheaves
