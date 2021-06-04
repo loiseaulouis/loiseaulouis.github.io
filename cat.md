@@ -80,6 +80,8 @@ Donnons déjà quelques exemples de catégories usuelles, que tout mathématicie
 
 On peut bien sûr compléter cette liste à volonté en y ajoutant les anneaux, mais aussi les anneaux unitaires ou unitaires commutatifs, les groupes abéliens ou encore les espaces métriques et même les ensembles ordonnés (de morphisme les applications croissantes)...toute la boîte à outils mathématique.
 
+Fait remarquable, l'ensemble des morphismes d'une catégorie $$\mathcal{C}$$, $$\mathrm{Mor}(\mathcal{C})$$ (ie: tous les morphismes, en opposition à $$\mathrm{Hom}$$ des morphismes d'un certain $$X$$ vers un certain $$Y$$) peut lui-même être muni d'une structure de catégorie. Les morphismes de cette catégorie sont définies de façons pas trop déconnantes (promis) par $$ \mathrm{Hom}_{\mathcal{C}}(f,g) = \\{ u:X\mapsto X^\prime, ~ v : Y \mapsto Y^\prime, ~ g \circ u = v \circ f \\} $$
+
 Il n'est pas rare que, partant de morphismes $$X \longrightarrow Y$$, on souhaite en étudier d'autres de $$Y \longrightarrow X$$ (penser à la réciproque d'une application). Cette notion aura un rôle central et sera représentée par la catégorie *opposée*, ou *duale*, $$ \mathcal{C}^{op}$$ définie par
 
  * Les objets sont les mêmes: $$\mathrm{Ob} (\mathcal{C}^{op}) = \mathrm{Ob}(\mathcal{C})$$
@@ -136,7 +138,8 @@ Revenons maintenant sur nos exemples.
 * Si $$A$$ est un anneau, on peut définir $$\mathrm{Mod}(A)$$ la catégorie des $$A$$-modules. Ainsi la sous-catégorie des $$A$$-modules de type fini en est une sous-catégorie pleine.
 * Si $$X$$ est un ensemble et $$x_0 \in X$$, le couple $$(X,x)$$ est un ensemblé pointé. On appelle $$\mathrm{pSet}$$ la catégorie de ces ensembles et on le munit d'une structure en définissant les morphismes $$f: (X,x) \mapsto (Y,y)$$ par $$f(x)=y$$
 
-*Remarque: Je ne connaissais pas les ensembles pointés jusqu'ici. J'ai trouvé un exemple à première vue assez innatendu: le premier groupe de cohomologie $$H^1(G,A)$$ est un ensemble pointé. Mais c'est tout de suite moins drôle quand on sait que tout groupe est pointé en son neutre*
+*Remarque: Je ne connaissais pas les ensembles pointés jusqu'ici. J'ai trouvé un exemple à première vue assez innatendu: le premier groupe de cohomologie $$H^1(G,A)$$ est un ensemble pointé. Mais c'est tout de suite moins drôle quand on sait que tout groupe est pointé en son neutre [4]*
+
 
 
 Références
@@ -144,3 +147,5 @@ Références
 [1] cat and sheaves
 [2] article jean yves beziau
 [3] sga 4.1
+[4] AN INTRODUCTION TO GALOIS COHOMOLOGY
+AND ITS APPLICATIONS
