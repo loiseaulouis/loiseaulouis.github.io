@@ -104,7 +104,7 @@ Il se trouve que cet enseignant est un géomètre algébristre, et que sa notati
 
 En particulier, en théorie des ensembles, les mono/épimorphismes sont exactements les fonctions inj/surjectives.
 
-Avant de présenter des exemples concrets de catégories, partons pour une nouvelle vague de vocabulaire. C'est un peu long, mais c'est le prix à payer pour donner des exemples enrichis.
+Nous allons revenir à nos exemples de catégories pour enrichir notre connaissance à leur sujet. Pour celà, partons pour une nouvelle vague de vocabulaire. C'est un peu long, mais c'est le prix à payer pour donner des exemples enrichis.
 
 La première de la liste s'impose dans l'étude de chaque structure mathématique, et est donc assez naturelle, les suivantes donnent un peu de contexte et permettront des études plus détaillées.
 
