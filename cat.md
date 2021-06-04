@@ -223,10 +223,20 @@ F_1(Y) @>{F(Y,g)}>> F_2(Y)
 
 L'application $$\theta$$ est appelé *transformation naturelle*. Les transformations naturelles sont un sujet passionnant et riche d'exemple, qui mériterait un article plus court, pédagogue, et illustré. Par chance, il semblerait que quelqu'un l'ait [déjà fait...](https://www.math3ma.com/blog/what-is-a-natural-transformation)
 
-Bien. Nous avons désormais des flèches entre nos catégories. On rajoute une idendité $$\mathrm{id}_\mathcal{C}$$ et on a tout le package. On serait tenté de travailler comme d'habitude, et *techniquement* on le pourrait, mais il semblerait qu'il y ait un hic: les isomorphismes de catégories - qui de fait, existent - sont bien trop restrictifs pour notre étude, on préférera  l'enrichir et parler d'*équivalence de catégorie*.
+Bien. Nous avons désormais des flèches entre nos catégories. On rajoute une idendité $$\mathrm{id}_\mathcal{C}$$ et on a tout le package. On serait tenté de travailler comme d'habitude, et *techniquement* on le pourrait, mais il semblerait qu'il y ait un hic: les isomorphismes de catégories - qui de fait, existent - sont bien trop restrictifs pour notre étude, on préférera  l'affaiblir et parler d'*équivalence de catégorie*.
 
-**Définition.** Un foncteur $$F : \mathcal{C} \mapsto \mathcal{C}^\prime$$ est une *équivalence de catégories* si il existe $$G: \mathcal{C}^\prime \mapsto \mathcal{C}$$ et des isomorphismes de foncteurs $$\alpha : G \circ F \xlongrightarrow[\sim] \mathrm{id}_\mathcal{C}, \beta: F \circ G \xlongrightarrow[\sim] \mathrm{id}_{\mathcal{C}^prime}$$.
-Dans une telle situation, on écrit $$F: \mathcal{C} \xlongrightarrow[\sim] \mathcal{C}^\prime$$, et on dit que $$F$$ et $$G$$ sont quasi inverse l'un de l'autre.
+**Définition.** Un foncteur $$F : \mathcal{C} \mapsto \mathcal{C}^\prime$$ est une *équivalence de catégories* si il existe $$G: \mathcal{C}^\prime \mapsto \mathcal{C}$$ et des isomorphismes de foncteurs $$\alpha : G \circ F \simeq \mathrm{id}_\mathcal{C}, \beta: F \circ G \simeq \mathrm{id}_{\mathcal{C}^prime}$$.
+Dans une telle situation, on écrit $$F: \mathcal{C} \simeq \mathcal{C}^\prime$$, et on dit que $$F$$ et $$G$$ sont quasi inverse l'un de l'autre.
+
+Présentons maintenant deux résultats, découlant tout deux du lemme de Zorn (qui, il faut le rappeller "n'est pas un lemme, et n'est pas de moi")
+
+**Premier lemme.**  Soit $$F: \mathcal{C} \mapsto \mathcal{C}^\prime$$ un foncteur et une sous-catégorie pleine $$\mathcal{C}_0^\prime \subset \mathcal{C}^\prime$$ telle que pour tout $$X \in \mathcal{C}$$ il existe un $$Y \in \mathcal{C}_0^\prime$$ et un isomorphisme $$F(X) \simeq Y.
+On note $$i^\prime$$ le plongement naturel de $$\mathcal{C}_0^\prime \mapsto \mathcal{C}_0$$.
+Alors il existe un foncteur $$F_0 : \mathcal{C} \mapsto \mathcal{C}_0^\prime$$ et une transformation naturelle $$\theta_0: F \mapsto i^\prime \circ F_0$$. De plus, $$F_0$$ est unique à (un unique) isomorphisme près.
+
+*Démonstration: Par le lemme de Zorn, pour chaque $$X$$, on peut choisir un $$Y$$ dans \mathcal{C}_0^\prime$$, un isomorphisme $$\varphi_X : Y \mapsto F(X)$$ et poser $$F_0(X) = Y$$. Si $$f : X \mapsto X^\prime$$ est un morphisme dans $$\mathcal{C}$$, on définit $$F_0(f) : F_0(X) \mapsto F_0(X^\prime)$$ comme étant la composition de $$F_0(X) \longrightarrow F(X) \longrightarrow F(X^\prime) \longleftarrow F_0(X^\prime)$$. *
+
+**Second lemme.** 
 
 Références
 --
