@@ -106,12 +106,17 @@ En particulier, en théorie des ensembles, les mono/épimorphismes sont exacteme
 
 Avant de présenter des exemples concrets de catégories, partons pour une nouvelle vague de vocabulaire. C'est un peu long, mais c'est le prix à payer pour donner des exemples enrichis.
 
-La première de la liste s'impose dans l'étude de chaque structure mathématique, et est donc assez naturelle.
+La première de la liste s'impose dans l'étude de chaque structure mathématique, et est donc assez naturelle, les suivantes donnent un peu de contexte et permettront des études plus détaillées.
 
-**Définition.**
+**Définitions.**
 * Une catégorie $$\mathcal(C)^\prime$$ est une *sous-catégorie* de $$\mathcal{C}$$, $$\mathcal{C}^\prime \subset \mathcal{C}$$ si les objets de $$\mathcal{C}^\prime$$ sont déjà des objets de $$\mathcal{C}$$, de même pour les morphismes, que la composition dans $$\mathcal{C}^\prime$$ est induite par celle de $$\mathcal{C}$$ et que le morphisme identité est le même.
-*
-
+* Une sous-catégorie $$\mathcal{C}^\prime \subset \mathcal{C}$$ est dite *pleine* si les morphismes sont les mêmes. $$\mathrm{Hom}_{\mathcal{C}}(X,Y) = \mathrm{Hom}_{\mathcal{C}^\prime}(X,Y)  $$
+* Une sous-catégorie pleine est dite *saturée*, si, dès que $$X \in \mathcal{C}$$ est isomorphe à un quelconque objet de $$\mathcal{C}^\prime$$, alors $$X$$ est déjà dans $$\mathcal{C}^\prime$$.
+* Une catégorie est *discrète* si les seuls morphismes sont les morphismes identité.
+* Une catégorie est dite non-vide sur sa classe d'objet est non-vide.
+* Une catégorie est un *groupoïde* si tout morphisme est isomorphisme.
+* Une catégorie est *finie* si l'ensemble de tous ses morphismes est fini. (et donc *a fortiori*, celui de ses objets également)
+* Une catégorie est *connectée* si elle est non-vide et, pour tout $$X,Y \in \mathcal{C}$$, il existe une suite finite d'objets $$X_0,\dots,X_n$$, avec $$X_0 = X$$ et $$X_n = Y$$, tel qu'au moins l'un des ensembles $$ \mathrm{Hom}(X_j,X_{j+1})$$ ou $$\mathrm{Hom} (X_{j+1}, X_j) $$ est non-vide pour $$0 \leqslant j \leqslant n-1$$
 Références
 --
 [1] cat and sheaves
