@@ -83,13 +83,13 @@ On peut bien sûr compléter cette liste à volonté en y ajoutant les anneaux, 
 Fait remarquable, l'ensemble des morphismes d'une catégorie $$\mathcal{C}$$, $$\mathrm{Mor}(\mathcal{C})$$ (ie: tous les morphismes, en opposition à $$\mathrm{Hom}$$ des morphismes d'un certain $$X$$ vers un certain $$Y$$) peut lui-même être muni d'une structure de catégorie. Les morphismes de cette catégorie sont définies de façons pas trop déconnantes (promis) par $$ \mathrm{Hom}_{\mathrm{Mor}(\mathcal{C})}(f,g) = \{ u:X\mapsto X^\prime, ~ v : Y \mapsto Y^\prime, ~ g \circ u = v \circ f \} $$
 
 
-\\[
+$$
 \require{AMScd}
 \begin{CD}
-\mathbb{Z}/p^n\mathbb{Z} @>{\theta_{n+1,\alpha}}>> U_1/U_{n+1}\\
-@VVV @VVV\\
-\mathbb{Z}/p^{n-1}\mathbb{Z} @>{\theta_{n,\alpha}}>> U_1/U_n
-\end{CD} \\]
+X @>{f}>> Y\\
+@V{u}VV @VV{v}V\\
+X^\prime @>{g}>> Y^\prime
+\end{CD} $$
 
 
 Il n'est pas rare que, partant de morphismes $$X \longrightarrow Y$$, on souhaite en étudier d'autres de $$Y \longrightarrow X$$ (penser à la réciproque d'une application). Cette notion aura un rôle central et sera représentée par la catégorie *opposée*, ou *duale*, $$ \mathcal{C}^{op}$$ définie par
