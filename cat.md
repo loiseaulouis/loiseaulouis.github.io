@@ -203,7 +203,7 @@ F(X,X^\prime) @>{F(X,g)}>> F(X,Y^\prime)\\
 F(Y,X^\prime) @>{F(Y,g)}>> F(Y,Y^\prime)^\prime
 \end{CD} $$
 
-On peut citer l'exemple, pour une $$\mathcal{U}$$-catégorie $$\mathcal{C}$$, le bifoncteur $$\mathrm{Hom}_{\mathcal{C}}(\cdot,\cdot) : \mathcal{C}^{op} \times \mathcal{C} \mapsto \mathrm{Set}.
+On peut citer l'exemple, pour une $$\mathcal{U}$$-catégorie $$\mathcal{C}$$, le bifoncteur $$\mathrm{Hom}_{\mathcal{C}}(\cdot,\cdot) : \mathcal{C}^{op} \times \mathcal{C} \mapsto \mathrm{Set}$$.
 
 Morphismes de foncteur, lemme de Yoneda
 ==
@@ -217,7 +217,7 @@ $$
 \require{AMScd}
 \begin{CD}
 F_1(X) @>{\theta_X}>> F_2(X)\\
-@V{F_1(f)}VV @VV{F_2(f)}V\\
+@V{F_1(f)}VV @VV{F_2(f) }V\\
 F_1(Y) @>{F(Y,g)}>> F_2(Y)
 \end{CD} $$
 
