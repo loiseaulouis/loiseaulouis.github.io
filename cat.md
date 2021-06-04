@@ -2,8 +2,7 @@
 layout: post
 ---
 
-Introduction aux catégories
---
+
 
 Voyant ce concept intervenir de près ou de loin dans à peu près toutes les discussions de mathématiciens - algébristes - auxquelles j'ai pu assister, j'ai profité de ce début de vacances pour enfin l'étudier d'un peu plus près : la théorie des catégories.
 
