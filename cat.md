@@ -133,7 +133,10 @@ Revenons maintenant sur nos exemples.
 
 * $$\mathrm{Set} \subset \mathrm{Rel}$$, mais elle n'est pas pleine.
 * La catégorie des groupes abéliens $$\mathrm{Ab}$$ est une sous-catégorie pleine de la catégorie groupes, elle-même sous-catégorie pleine des monoïdes. $$\mathrm{Mon}$$.
-* Si $$A$$ est un anneau, on peut définir $$\mathrm{Mod}(A)$$ la catégorie des $$A$$-modules. Ainsi la sous-catégorie des $$A$$-modules de type fini en est une sous-catégorie pleine. 
+* Si $$A$$ est un anneau, on peut définir $$\mathrm{Mod}(A)$$ la catégorie des $$A$$-modules. Ainsi la sous-catégorie des $$A$$-modules de type fini en est une sous-catégorie pleine.
+* Si $$X$$ est un ensemble et $$x_0 \in X$$, le couple $$(X,x)$$ est un ensemblé pointé. On appelle $$\mathrm{pSet}$$ la catégorie de ces ensembles et on le munit d'une structure en définissant les morphismes $$f: (X,x) \mapsto (Y,y)$$ par $$f(x)=y$$
+
+*Remarque: Je ne connaissais pas les ensembles pointés jusqu'ici. J'ai trouvé un exemple à première vue assez innatendu: le premier groupe de cohomologie $$H^1(G,A)$$ est un ensemble pointé. Mais c'est tout de suite moins drôle quand on sait que tout groupe est pointé en son neutre*
 
 
 Références
