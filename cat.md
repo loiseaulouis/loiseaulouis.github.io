@@ -1,5 +1,6 @@
 ---
 layout: post
+header-img: "img/cat.jpg"
 ---
 
 
@@ -106,6 +107,10 @@ En particulier, en théorie des ensembles, les mono/épimorphismes sont exacteme
 Avant de présenter des exemples concrets de catégories, partons pour une nouvelle vague de vocabulaire. C'est un peu long, mais c'est le prix à payer pour donner des exemples enrichis.
 
 La première de la liste s'impose dans l'étude de chaque structure mathématique, et est donc assez naturelle.
+
+**Définition.**
+* Une catégorie $$\mathcal(C)^\prime$$ est une *sous-catégorie* de $$\mathcal{C}$$, $$\mathcal{C}^\prime \subset \mathcal{C}$$ si les objets de $$\mathcal{C}^\prime$$ sont déjà des objets de $$\mathcal{C}$$, de même pour les morphismes, que la composition dans $$\mathcal{C}^\prime$$ est induite par celle de $$\mathcal{C}$$ et que le morphisme identité est le même.
+*
 
 Références
 --
