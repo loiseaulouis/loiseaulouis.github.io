@@ -93,6 +93,20 @@ Un tel morphisme $$g$$ est appelé *inverse de $$f$$* et noté $$f^{-1}$$. S'il 
 
 Duale à celle des isomorphismes, présentons maintenant deux autres classe de morphismes, analogues - en un sens - aux notions d'injectivité et de surjectivité.
 
+**Définitions.**
+* Un morphisme $$f : X \mapsto Y$$ est un *monomorphisme* si pour toute paire de morphismes paralèlles $$g_1, g_2: Z \rightrightarrows X$$, si $$f \circ g_1 = f \circ g_2$$, alors $$g_1 = g_2$$. On note $$f : X \hookrightarrow Y$$.
+* Un morphisme $$f : X \mapsto Y$$ est un *épimorphisme* si $$f^{op} : X^{op} \mapsto Y${op}$$ est un monomorphisme dans $$\mathcal{C^{op}}. On note $$f : X \twoheadrightarrow Y$$.
+
+En voyant ces notations, j'ai repensé à cet enseignant d'algèbre en L3 qui notait toujours les morphismes injectifs et surjectifs de la sorte, et laissait de temps en temps échapper le mot "épimorphisme" au détour d'une démonstration, avant de se reprendre devant nos airs étonné.
+
+Il se trouve que cet enseignant est un géomètre algébristre, et que sa notation est parfaitement cohérente, en effet on peut remarquer que $$f$$ est un monormorphisme si et seulement si l'application $$ f \circ : \mathrm{Hom}_{\mathcal{C}}(Z,X) \mapsto \mathrm{Hom}_{\mathcal{C}}(Z,Y)$$ est injective pour tout $$Z$$, et de la même façon que $$f$$ est un épimorphisme si et seulement si $$\circ f : \mathrm{Hom}_{\mathcal{C}}(Y,Z) \mapsto \mathrm{Hom}_{\mathcal{C}}(X,Z)$$ est injective pour tout $$Z$$. (ie: injective dans la catégorie duale, en inversant les flèches on peut retrouver cette idée de surjection). Encore une fois, il faut faire attention aux définitions, et considérer des compositions à gauche et à droite et non pas raisonner en termes ensemblistes.
+
+En particulier, en théorie des ensembles, les mono/épimorphismes sont exactements les fonctions inj/surjectives.
+
+Avant de présenter des exemples concrets de catégories, partons pour une nouvelle vague de vocabulaire. C'est un peu long, mais c'est le prix à payer pour donner des exemples enrichis.
+
+La première de la liste s'impose dans l'étude de chaque structure mathématique, et est donc assez naturelle.
+
 Références
 --
 [1] cat and sheaves
