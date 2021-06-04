@@ -2,7 +2,7 @@
 layout: post
 header-img: "img/cat.jpg"
 ---
-$$\require{AMScd}$$
+
 
 
 Voyant ce concept intervenir de près ou de loin dans à peu près toutes les discussions de mathématiciens - algébristes - auxquelles j'ai pu assister, j'ai profité de ce début de vacances pour enfin l'étudier d'un peu plus près : la théorie des catégories.
@@ -82,6 +82,7 @@ On peut bien sûr compléter cette liste à volonté en y ajoutant les anneaux, 
 
 Fait remarquable, l'ensemble des morphismes d'une catégorie $$\mathcal{C}$$, $$\mathrm{Mor}(\mathcal{C})$$ (ie: tous les morphismes, en opposition à $$\mathrm{Hom}$$ des morphismes d'un certain $$X$$ vers un certain $$Y$$) peut lui-même être muni d'une structure de catégorie. Les morphismes de cette catégorie sont définies de façons pas trop déconnantes (promis) par $$ \mathrm{Hom}_{\mathrm{Mor}(\mathcal{C})}(f,g) = \{ u:X\mapsto X^\prime, ~ v : Y \mapsto Y^\prime, ~ g \circ u = v \circ f \} $$
 \\[
+\require{AMScd}
 \begin{CD}
 \mathbb{Z}/p^n\mathbb{Z} @>{\theta_{n+1,\alpha}}>> U_1/U_{n+1}\\
 @VVV @VVV\\
