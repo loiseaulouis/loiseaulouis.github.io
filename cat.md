@@ -96,7 +96,7 @@ Duale à celle des isomorphismes, présentons maintenant deux autres classe de m
 
 **Définitions.**
 * Un morphisme $$f : X \mapsto Y$$ est un *monomorphisme* si pour toute paire de morphismes paralèlles $$g_1, g_2: Z \rightrightarrows X$$, si $$f \circ g_1 = f \circ g_2$$, alors $$g_1 = g_2$$. On note $$f : X \hookrightarrow Y$$.
-* Un morphisme $$f : X \mapsto Y$$ est un *épimorphisme* si $$f^{op} : X^{op} \mapsto Y^{op}$$ est un monomorphisme dans $$\mathcal{C^{op}}. On note $$f : X \twoheadrightarrow Y$$.
+* Un morphisme $$f : X \mapsto Y$$ est un *épimorphisme* si $$f^{op} : X^{op} \mapsto Y^{op}$$ est un monomorphisme dans $$\mathcal{C^{op}}$$. On note $$f : X \twoheadrightarrow Y$$.
 
 En voyant ces notations, j'ai repensé à cet enseignant d'algèbre en L3 qui notait toujours les morphismes injectifs et surjectifs de la sorte, et laissait de temps en temps échapper le mot "épimorphisme" au détour d'une démonstration, avant de se reprendre devant nos airs étonné.
 
