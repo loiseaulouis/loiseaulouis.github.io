@@ -1,5 +1,10 @@
 ---
 layout: post
+title:  "Introduction aux catégories"
+date:   2021-06-05 02:20:00 +0200
+categories: articles
+usemathjax: true
+comments: true
 header-img: "img/cat.jpg"
 ---
 
