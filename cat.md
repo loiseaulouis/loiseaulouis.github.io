@@ -241,12 +241,35 @@ De plus, si deux objets de $$\mathcal{C}_0$$ sont isomorphes, alors ils sont ég
 
 *Démonstration: On considère la relation d'équivalence $$X \sim Y$$ si et seulement si $$X \simeq Y$$. Par le lemme de Zorn, on peut choisir un objet dans chaque élément de $$ \mathrm{Ob}/\sim$$. Alors, il suffit de considérer la sous-catégorie constituée des-dits objets.*
 
+De ce dernier lemme, on tire une caractérisation sympathique, qui met en jeu plusieurs notions introduites ici.
+
+**Résultat.** Un foncteur $$F: \mathcal{C} \mapsto \mathcal{C}^\prime$$ est une équivalence de catégorie si et seulement si $$F$$ est pleinement fidèle et essentiellement surjectif.
+
+Pour conclure, présentons rapidement le lemme de Yoneda. Pour la démonstration et les corollaires, voir [3].
+Le choix de finir sur Yoneda n'était pas anodin à mon sens. En dehors du fait que ce billet commence réellement à s'éterniser, le lemme de Yoneda est un résultat très général, et les différents outils gravitant autour font un pont entre la base de la théorie et son coeur (les limites projectives et inductives) mais aussi vers des théories plus algébriques via les faisceaux (objet d'étude de [3]) et, si vous êtes encore ici, c'est vers ces sujets qu'il faudra dorénavant s'aventurer.
+
+Soit $$\mathcal{U}$$ un univers et $$\mathcal{C}$$ une catégorie localement petite.
+
+On définit la catégorie des *préfaisceaux* sur $$\mathcal{C}$$ comme étant la catégorie des foncteurs de la catégorie duale vers la catégorie des ensembles.
+
+$$ \hat{\mathcal{C}} = \mathrm{Funct}(\mathcal{C}^{op}, \mathrm{Set}) $$
+
+Ainsi que le *foncteur de plongement*
+
+$$ h_\mathcal{C} : \mahcal{C} \mapsto \hat{\mathcal{C}} $$
+
+Alors, pour tout  $$A$$ de $$\hat{\mathcal{C}} et tout objet de $$\mathcal{C}$$, il y a un isomorphisme canonique:
+
+$$ \mathrm{Hom}_{\hat{C}}(h_{\mathcal{C}}, A) \simeq A(X)  $$
+
+Les conséquences direct de ce théorème sont nombreuses, (voir représentation des foncteurs), et le chemin encore long....Bonne chance!
 
 
 Références
 --
-[1] cat and sheaves
-[2] article jean yves beziau
-[3] sga 4.1
+
+[1] SCHAPIRA, M. KASHIWARA-P. et KASHIWARA, Masaki. Categories and sheaves. Grundlehren der Math. Wiss, 2006, vol. 332.
+[2] BÉZIAU, Jean-Yves. La Théorie des Ensembles et la Théorie des Catégories: Présentation de deux soeurs ennemies du point de vue de leurs relations avec les fondements des mathématiques. Boletín de la Asociación Matemática Venezolana, 2002, vol. 9, no 1, p. 45-54.
+[3] BOURBAKI, N. et DELIGNE, Pierre. Theorie des Topos et Cohomologie Etale des Schemas. Seminaire de Geometrie Algebrique du Bois-Marie 1963-1964 (SGA 4): Tome 1. Springer, 2006.
 [4] AN INTRODUCTION TO GALOIS COHOMOLOGY
 AND ITS APPLICATIONS
