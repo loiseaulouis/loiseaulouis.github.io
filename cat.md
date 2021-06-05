@@ -256,7 +256,7 @@ $$ \hat{\mathcal{C}} = \mathrm{Funct}(\mathcal{C}^{op}, \mathrm{Set}) $$
 
 Ainsi que le *foncteur de plongement*
 
-$$ h_\mathcal{C} : \mahcal{C} \mapsto \hat{\mathcal{C}} $$
+$$ h_\mathcal{C} : \mathcal{C} \mapsto \hat{\mathcal{C}} $$
 
 Alors, pour tout  $$A$$ de $$\hat{\mathcal{C}} et tout objet de $$\mathcal{C}$$, il y a un isomorphisme canonique:
 
@@ -269,7 +269,10 @@ Références
 --
 
 [1] SCHAPIRA, M. KASHIWARA-P. et KASHIWARA, Masaki. Categories and sheaves. Grundlehren der Math. Wiss, 2006, vol. 332.
+
 [2] BÉZIAU, Jean-Yves. La Théorie des Ensembles et la Théorie des Catégories: Présentation de deux soeurs ennemies du point de vue de leurs relations avec les fondements des mathématiques. Boletín de la Asociación Matemática Venezolana, 2002, vol. 9, no 1, p. 45-54.
+
 [3] BOURBAKI, N. et DELIGNE, Pierre. Theorie des Topos et Cohomologie Etale des Schemas. Seminaire de Geometrie Algebrique du Bois-Marie 1963-1964 (SGA 4): Tome 1. Springer, 2006.
+
 [4] AN INTRODUCTION TO GALOIS COHOMOLOGY
 AND ITS APPLICATIONS
