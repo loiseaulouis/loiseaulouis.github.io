@@ -158,7 +158,7 @@ Revenons maintenant sur nos exemples.
 
 *Remarque: Je ne connaissais pas les ensembles pointés jusqu'ici. J'ai trouvé un exemple à première vue assez innatendu: le premier groupe de cohomologie $$H^1(G,A)$$ est un ensemble pointé. Mais c'est tout de suite moins drôle quand on sait que tout groupe est pointé en son neutre [4]*
 
-Il est maintenant l'heure de faire un pas de plus dans l'abstraction. Nous avons jusqu'ici donner les grandes idées pour définir une catégorie. Composée d'objets de flèches, nous avons remarqué que les flèches formaient elles aussi une catégorie. Pour aller plus loin, nous allons maintenant voir qu'il est possible de relier les catégories entres elles, c'est précisement la notion de foncteur.
+Il est maintenant l'heure de faire un pas de plus dans l'abstraction. Nous avons jusqu'ici donné les grandes idées pour définir une catégorie. Composée d'objets de flèches, nous avons remarqué que les flèches formaient elles aussi une catégorie. Pour aller plus loin, nous allons maintenant voir qu'il est possible de relier les catégories entres elles, c'est précisement la notion de foncteur.
 
 Dans un cursus scolaire "normal", il est assez rare de voir des applications qui partent d'une structure dans une autre, il peut donc être difficile de s'imaginer directement un exemple. On pourrait bien penser aux structures algébriques de base, et imaginer par exemple un morphisme (par un grotesque abus de language) d'un anneau vers un corps, mais je n'en connais personnellement aucun qui pourrait être intéressant. En revanche, il y a un exemple simple et assez courant qui est le *foncteur d'oubli*. Le foncteur d'oubli, fait "oublier" à sa source sa structure. Partons par exemple d'un espace topologique. C'est la donnée d'un ensemble, disons $$T$$, et d'une topologie: c'est elle qui donne sa structure à $$T$$. Le foncteur d'oublie va alors renvoyer uniquement $$T$$, l'ensemble sous-jacent de l'espace topologique. De la même façon, on peut considérer un groupe $$(G, \dot)$$ et ne renvoyer que $$G$$. Ce sont là deux foncteurs des catégories $$\mathrm{Top}$$ et $$\mathrm{Grp}$$ vers $$\mathrm{Set}$$. Ce sont là des exemples où les objets perdent "toute" leur structure, mais on peut aussi partir d'un groupe abélien $$G$$, *ie* un objet de $$\mathrm{Ab}$$ et le plonger dans $$\mathrm{Grp}$$, dans ce cas $$G$$ "oublie juste" qu'il est abélien.
 
@@ -198,7 +198,7 @@ La preuve de ce résultat peut être qualifiée de triviale, dans le sens où on
 
 J'ai jusqu'ici passé sous silence les notions de catégorie produit et de réunion disjointe de catégories, mais les foncteurs s'appliquent évidemment à ces cas. En particulier, un foncteur $$F: \mathcal{C} \times \mathcal{C} \mapsto \mathcal{C}^{\prime \prime}$$ et appelé un *bifoncteur*. Détaillons.
 
-Pour $$X \in \mathcal{C}, ~ X^$\prime \in \mathcal{C}^\prime$$, les applications $$F(X, \cdot): \mathcal{C}^\prime \mapsto \mathcal{C}^{\prime \prime}$$ et  $$F(\cdot, X): \mathcal{C} \mapsto \mathcal{C}^{\prime \prime}$$ sont des foncteurs. De plus, pour tout morphisme $$f : X \mapsto Y$$ dans $$\mathcal{C}$$, $$g : X^\prime \mapsto Y^\prime$$ de $$\mathcal{C}^\prime$$, le diagramme suivant commute:
+Pour $$X \in \mathcal{C}, ~ X^\prime \in \mathcal{C}^\prime$$, les applications $$F(X, \cdot): \mathcal{C}^\prime \mapsto \mathcal{C}^{\prime \prime}$$ et  $$F(\cdot, X): \mathcal{C} \mapsto \mathcal{C}^{\prime \prime}$$ sont des foncteurs. De plus, pour tout morphisme $$f : X \mapsto Y$$ dans $$\mathcal{C}$$, $$g : X^\prime \mapsto Y^\prime$$ de $$\mathcal{C}^\prime$$, le diagramme suivant commute:
 
 $$
 \require{AMScd}
@@ -263,7 +263,7 @@ Ainsi que le *foncteur de plongement*
 
 $$ h_\mathcal{C} : \mathcal{C} \mapsto \hat{\mathcal{C}} $$
 
-Alors, pour tout  $$A$$ de $$\hat{\mathcal{C}} et tout objet de $$\mathcal{C}$$, il y a un isomorphisme canonique:
+Alors, pour tout  $$A$$ de $$\hat{\mathcal{C}}$$ et tout objet de $$\mathcal{C}$$, il y a un isomorphisme canonique:
 
 $$ \mathrm{Hom}_{\hat{C}}(h_{\mathcal{C}}, A) \simeq A(X)  $$
 
