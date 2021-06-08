@@ -162,6 +162,8 @@ Il est maintenant l'heure de faire un pas de plus dans l'abstraction. Nous avons
 
 Dans un cursus scolaire "normal", il est assez rare de voir des applications qui partent d'une structure dans une autre, il peut donc être difficile de s'imaginer directement un exemple. On pourrait bien penser aux structures algébriques de base, et imaginer par exemple un morphisme (par un grotesque abus de language) d'un anneau vers un corps, mais je n'en connais personnellement aucun qui pourrait être intéressant. En revanche, il y a un exemple simple et assez courant qui est le *foncteur d'oubli*. Le foncteur d'oubli, fait "oublier" à sa source sa structure. Partons par exemple d'un espace topologique. C'est la donnée d'un ensemble, disons $$T$$, et d'une topologie: c'est elle qui donne sa structure à $$T$$. Le foncteur d'oublie va alors renvoyer uniquement $$T$$, l'ensemble sous-jacent de l'espace topologique. De la même façon, on peut considérer un groupe $$(G, \dot)$$ et ne renvoyer que $$G$$. Ce sont là deux foncteurs des catégories $$\mathrm{Top}$$ et $$\mathrm{Grp}$$ vers $$\mathrm{Set}$$. Ce sont là des exemples où les objets perdent "toute" leur structure, mais on peut aussi partir d'un groupe abélien $$G$$, *ie* un objet de $$\mathrm{Ab}$$ et le plonger dans $$\mathrm{Grp}$$, dans ce cas $$G$$ "oublie juste" qu'il est abélien.
 
+Citons tout de même un exemple de foncteurs entre catégories algébriques, proposée par un camarade : le foncteur $$F : \mathrm{IntRing} \mapsto \mathrm{Field}$$, qui associe à tout anneau intègre $$A$$ son corps des fractions $$\mathrm{Fr}(A)$$, et à tout morphisme d'anneau intègre $$f : A \mapsto B$$ associe $$F(f) : F(A) \mapsto F(B)$$ envoyant $$a/a^\prime \mapsto f(a)/f(a^\prime)$$. Il n'est pas dur de montrer que c'est bien un foncteur.
+
 **Définition.**
 Soit $$\mathcal{C}, \mathcal{C}^\prime$$ deux catégories. Un *foncteur* $$F : \mathcal{C} \mapsto \mathcal{C}^\prime$$ est la donnée d'une application $$F: \mathrm{Ob} (\mathcal{C}) \mapsto \mathrm{Ob} (\mathcal{C}^\prime)$$ et $$F: \mathrm{Hom}_{\mathcal{C}}(X,Y) \mapsto \mathrm{Hom}_{\mathcal{C}^\prime}(F(X),F(Y))$$ pour tout $$X,Y \in \mathcal{C}$$, qui préserve l'identité et la composition.
 Plus clairement, un foncteur est une application qui envoie chaque objet $$X$$ d'une catégorie $$\mathcal{C}$$ vers un objet $$F(X)$$ d'une catégorie $$\mathcal{C}^\prime$$, et chaque morphisme $$f : X \mapsto Y$$ vers un morphisme $$F(f):F(X) \mapsto F(Y)$$.
@@ -279,5 +281,4 @@ Références
 
 [3] BOURBAKI, N. et DELIGNE, Pierre. Theorie des Topos et Cohomologie Etale des Schemas. Seminaire de Geometrie Algebrique du Bois-Marie 1963-1964 (SGA 4): Tome 1. Springer, 2006.
 
-[4] AN INTRODUCTION TO GALOIS COHOMOLOGY
-AND ITS APPLICATIONS
+[4] BERHUY, Grégory. An introduction to Galois cohomology and its applications. Cambridge University Press, 2010.
