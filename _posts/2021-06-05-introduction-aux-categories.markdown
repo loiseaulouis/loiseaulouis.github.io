@@ -105,7 +105,7 @@ Il n'est pas rare que, partant de morphismes $$X \longrightarrow Y$$, on souhait
  * Les objets sont les mêmes: $$\mathrm{Ob} (\mathcal{C}^{op}) = \mathrm{Ob}(\mathcal{C})$$
  * Les flèches sont inversées: $$\mathrm{Hom}_{\mathcal{C}^{op}} (X,Y) = \mathrm{Hom}_{\mathcal{C}} (Y,X) $$
 
-Pour des objets $$X$$ et morphismes $$f$$ dans $$\mathcal{C}$$, on pourra noter $$X^{op}$$ ou $$f^{op}$$ son image dans $$\mathcal{C}^{op}$$.
+
 
 Avant de passer à la suite, j'aimerai passer un peu de temps sur le concept d'isomorphisme. Quand on parle d'isomorphisme, il y a  en général deux définitions (équivalentes) possibles. Prenons l'exemples des isomorphismes d'ensemble $$f : E \mapsto F$$; c'est-à-dire, d'une façon moins pédante, des bijections.
 
@@ -126,7 +126,7 @@ Duale à celle des isomorphismes, présentons maintenant deux autres classe de m
 
 **Définitions.**
 * Un morphisme $$f : X \mapsto Y$$ est un *monomorphisme* si pour toute paire de morphismes paralèlles $$g_1, g_2: Z \rightrightarrows X$$, si $$f \circ g_1 = f \circ g_2$$, alors $$g_1 = g_2$$. On note $$f : X \hookrightarrow Y$$.
-* Un morphisme $$f : X \mapsto Y$$ est un *épimorphisme* si $$f^{op} : X^{op} \mapsto Y^{op}$$ est un monomorphisme dans $$\mathcal{C^{op}}$$. On note $$f : X \twoheadrightarrow Y$$.
+* Un morphisme $$f : X \mapsto Y$$ est un *épimorphisme* si $$f : Y \mapsto X$$ est un monomorphisme dans $$\mathcal{C^{op}}$$. On note $$f : X \twoheadrightarrow Y$$.
 
 En voyant ces notations, j'ai repensé à cet enseignant d'algèbre en L3 qui notait toujours les morphismes injectifs et surjectifs de la sorte, et laissait de temps en temps échapper le mot "épimorphisme" au détour d'une démonstration, avant de se reprendre devant nos airs étonné.
 
